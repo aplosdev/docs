@@ -1,0 +1,57 @@
+nav {
+  background-color: none;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
+  background-color: var(--header-color);
+  border: 0.4px solid #74747460; 
+  padding: 1px 25px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-weight: 600; 
+  font-size: 14px;
+  letter-spacing: -0.72px;
+  margin: 0 5px;
+  font-size: 14px;
+  transition: color 0.7s ease;
+}
+
+nav ul li a:hover {
+  color: var(--accsent-color);
+}
+
+nav h1 {
+  font-size: 16px;
+  letter-spacing: -1px;
+  font-weight: 800;
+  color: var(--color-text); /* Apply the text color to h1 to match the links */
+  margin: 10px 0;
+}
+
+.h1-nav {
+  margin-right: 50px;
+}

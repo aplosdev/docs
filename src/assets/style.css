@@ -1,0 +1,135 @@
+nav {
+  background-color: none;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  overflow: hidden;
+  position: fixed;
+  top: 3rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
+  background-color: var(--color-header);
+  border: 0.4px solid var(--color-border);
+  z-index: 9999;
+  padding: 1px 25px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.72px;
+  margin: 0 5px;
+  font-size: 14px;
+  transition: color 0.7s ease;
+}
+
+nav ul li a:hover {
+  color: var(--color-accent);
+}
+
+nav a.router-link-exact-active {
+  color: var(--color-accent);
+}
+
+nav a.router-link-exact-active:hover {
+  color: var(--color-text);
+}
+
+nav h1 {
+  font-size: 16px;
+  letter-spacing: -1px;
+  font-weight: 800;
+  color: var(--color-text);
+  margin: 10px 0;
+}
+
+.h1-nav {
+  margin-right: 50px;
+  position: relative;
+}
+
+.h1-nav::after {
+  content: "";
+  position: absolute;
+  height: 110%;
+  width: 1px;
+  background-color: var(--color-border);
+  top: 0;
+  right: -20px;
+}
+
+footer {
+  position: absolute;
+  bottom: auto;
+  min-width: 100%;
+  right: 0;
+  padding: 20px;
+  background-color: var(--color-background-second);
+  border-radius: 10px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: underline 1.4px;
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+#copyright,
+#powered {
+  color: var(--color-text-secondary);
+  font-weight: 600;
+}
+
+#author {
+  font-weight: 900;
+  text-decoration: underline 1.5px;
+  transition: text-decoration 0.5s ease-in-out;
+}
+
+#author:hover {
+  text-decoration: underline 1.7px var(--color-text);
+}
+
+nav .fa-brands {
+  font-size: 15px;
+}
+
+ul .special {
+  list-style-type: "\1F7C5  ";
+  font-weight: 700;
+}
+
+.material-symbols-rounded,
+.icons {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+#pronoun {
+  cursor: pointer;
+}

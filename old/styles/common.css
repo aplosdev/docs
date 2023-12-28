@@ -1,0 +1,46 @@
+h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -1.2px;
+  }
+
+  h2 {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -1.2px;
+  }
+
+  code {
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  .code {
+    background-color: var(--second-color-background);
+    border-right: var(--accsent-color) 5px solid;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0;
+  }
+
+  blockquote {
+    border-left: var(--accsent-color) 5px solid;
+    border-radius: 8px 50px 50px 8px;
+    background-color: var(--second-color-background);
+    padding: 10px 19px;
+    margin: 0;
+    width: max-content;
+  }
+
+  blockquote p {
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  img {
+    border-radius: 10px;
+    width: 100%;
+  }

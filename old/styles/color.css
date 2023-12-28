@@ -1,0 +1,17 @@
+:root {
+  --color-background: #fdfbf8;
+  --color-text: #000;
+  --header-color: #fdfbf8b3;
+  --accsent-color: #F1CF55;
+  --color-text-secondary: #6c6c6c;
+  --second-color-background: #FFF8DD;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #17140b;
+    --second-color-background: #25231B;
+    --header-color: #191815ad;
+    --color-text: #fff;
+  }
+}
