@@ -1,40 +1,20 @@
-# aplos
+# Aplós
 
-This template should help get you started developing with Vue 3 in Vite.
+**Aplós** is a sleek, contemporary, and purposefully designed theme built on Aeolus. It provides a straightforward solution for creating a quick web page, offering essential features for comfortable writing while maintaining a sense of simplicity.
 
-## Recommended IDE Setup
+- Lightweight and minimalistic, eliminating the need for JavaScript.
+- Elegantly styled with a primary color theme for a visually pleasing experience.
+- Mobile-friendly design with support for dark mode.
+- Optimized for social media sharing with meta cards.
+- Utilizes premium fonts: Inter for text and Source Code Pro for code snippets.
+- Local development made easy with NPM integration.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Name
 
-## Type Support for `.vue` Imports in TS
+The name 'Aplós', pronounced as `/aplós/` volume_up is the Romanized representation of the Greek word 'Απλός,' which translates to 'Simple' or 'Pure and simple'. This naming choice that showcases the essence of the project— it's dedication to providing users with a traightforward and modern web experience. Aplós is centered around the philosophy of simplicity, aiming to deliver an uncomplicated and contemporary solution for website creation.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Thanks ❤ & Credits️:
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+- David Lapshin for [Duckquill](https://daudix.codeberg.page/duckquill), from where I got inspired to create this project (and many ideas are from there)
+- Rasmus Andersson for [Inter](https://rsms.me/inter/), which is the font used in **all** _Aeolus_ apps.
+- Adobe for [Source Code Pro](https://adobe-fonts.github.io/source-code-pro/), used for code snippets
