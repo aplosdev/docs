@@ -1,0 +1,23 @@
+:root {
+  --color-background: #fdfbf8;
+  --color-background-second: #fff8dd;
+  --color-accent: #cba416;
+  --color-header: #fdfbf8b3;
+  --color-text: #000;
+
+  --color-text-secondary: #6c6c6c;
+  --color-border: #74747460;
+  --base-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.15);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #17140b;
+    --color-background-second: #25231B;
+    --color-accent: #F1CF55;
+    --color-header: #17140bd6;
+    --color-text: #fff;
+
+    --base-shadow: 0px 10px 34px 0px rgb(0 0 0 / 40%);
+  }
+}

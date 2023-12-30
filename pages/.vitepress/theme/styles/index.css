@@ -1,0 +1,186 @@
+@import "common.css";
+@import "screens.css";
+@import "cards.css";
+@import "color.css";
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1, "ss02" 1; /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+  body {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
+body {
+  font-family: Inter, sans-serif, "Noto Color Emoji";
+  scroll-behavior: smooth;
+}
+
+main {
+  margin: 7% 25%;
+  font-size: 1rem;
+  line-height: 1.5;
+  min-height: calc(100vh - 160px);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+::selection {
+  color: var(--color-background);
+  background-color: var(--color-accent);
+}
+
+html {
+  scrollbar-color: var(--color-accent) rgba(0, 0, 0, 0);
+  accent-color: var(--color-accent);
+}
+
+nav {
+  background-color: none;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  overflow: hidden;
+  position: fixed;
+  top: 3rem;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 40px;
+  background-color: var(--color-header);
+  border: .4px solid var(--color-border);
+  z-index: 9999;
+  padding: 1px 25px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.72px;
+  margin: 0 5px;
+  font-size: 14px;
+  transition: color 0.7s ease;
+}
+
+nav ul li a:hover {
+  color: var(--color-accent);
+}
+
+nav ul li a.active {
+  color: var(--color-accent);
+}
+
+nav h1 {
+  font-size: 16px;
+  letter-spacing: -1px;
+  font-weight: 800;
+  color: var(--color-text);
+  margin: 10px 0;
+}
+
+.h1-nav {
+  margin-right: 50px;
+  position: relative;
+}
+
+.h1-nav::after {
+  content: "";
+  position: absolute;
+  height: 110%;
+  width: 1px;
+  background-color: var(--color-border);
+  top: 0;
+  right: -20px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  max-width: 100%;
+  right: 0;
+  padding: 20px;
+  margin: 0 10px 10px 10px;
+  background-color: var(--color-background-second);
+  border-radius: 10px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: underline 1.4px;
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+#copyright,
+#powered {
+  color: var(--color-text-secondary);
+  font-weight: 600;
+}
+
+#author {
+  font-weight: 900;
+}
+
+nav .fa-brands {
+  font-size: 15px;
+}
+
+ul .special {
+  list-style-type: "\1F7C5  ";
+  font-weight: 700;
+}
+
+.lang {
+  color: var(--color-text-secondary);
+  font-family: var(--vp-font-family-mono);
+  font-size: 14px;
+  position: absolute;
+  right: 20px;
+  margin-top: 15px;
+}
+
+button.copy {
+  direction: ltr;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 3;
+  border: 1px solid var(--vp-code-copy-code-border-color);
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--vp-code-copy-code-bg);
+  opacity: 0;
+  cursor: pointer;
+  background-image: var(--vp-icon-copy);
+  background-position: 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  transition: border-color 0.25s, background-color 0.25s, opacity 0.25s;
+}
