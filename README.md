@@ -1,6 +1,12 @@
-# Aplós
+<div align="center">
+<h1>Aplós</h1>
 
-**Aplós** is a sleek, contemporary, and purposefully designed theme built on Aeolus. It provides a straightforward solution for creating a quick web page, offering essential features for comfortable writing while maintaining a sense of simplicity.
+  **Aplós** is a sleek, contemporary, and purposefully designed theme built on Aeolus. It provides a straightforward solution for creating a quick web page, offering essential features for comfortable writing while maintaining a sense of simplicity.
+![Two-themes](https://github.com/GabsEdits/aplos/assets/110247388/4415f426-d704-4ba6-9f61-e6a2e2a46f3b)
+
+</div>
+
+
 
 - Lightweight and minimalistic, eliminating the need for JavaScript.
 - Elegantly styled with a primary color theme for a visually pleasing experience.
@@ -8,6 +14,7 @@
 - Optimized for social media sharing with meta cards.
 - Utilizes premium fonts: Inter for text and Source Code Pro for code snippets.
 - Local development made easy with NPM integration.
+
 
 ## Name
 
