@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useData } from 'vitepress';
+import { Content } from 'vitepress';
 import NotFound from './components/404View.vue';
 import SiteFooter from './components/Footer.vue';
 import Navigation from './components/Navigation.vue';

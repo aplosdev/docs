@@ -1,10 +1,17 @@
 {
+  "name": "aplos",
+  "version": "0.8.9private",
+  "description": "Aplós is a sleek, contemporary, and purposefully designed theme and template",
+  "author": "Gabriel Cozma",
+  "license": "MIT",
+  "private": true,
   "scripts": {
     "pages:dev": "vitepress dev pages",
     "pages:build": "vitepress build pages",
     "pages:preview": "vitepress preview pages"
   },
   "dependencies": {
+    "@fontsource/noto-emoji": "^5.0.17",
     "@fontsource/source-code-pro": "^5.0.16",
     "inter-ui": "^4.0.1",
     "vitepress": "^1.0.0-rc.33"

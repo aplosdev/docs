@@ -9480,7 +9480,7 @@ function isMemoSame(cached, memo) {
   }
   return true;
 }
-var version = "3.4.2";
+var version = "3.4.3";
 var warn2 = true ? warn$1 : NOOP;
 var ErrorTypeStrings = ErrorTypeStrings$1;
 var devtools = true ? devtools$1 : void 0;

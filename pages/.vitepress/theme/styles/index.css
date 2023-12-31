@@ -1,3 +1,11 @@
+/*
+ * Aplos version 0.8.9private (https://aplos.gxbs.me/)
+ * Copyright 2023 Gabriel Cozma/Gabs
+ * Licensed under MIT (https://github.com/GabsEdits/aplos/src/branch/main/LICENSE)
+ 
+ * Based on Vitepress (https://vitepress.dev) & Duckquill (https://daudix.codeberg.page/duckquill)
+*/
+
 @import "common.css";
 @import "screens.css";
 @import "cards.css";
@@ -143,6 +151,15 @@ footer a {
   font-weight: 600;
 }
 
+#copyright {
+  margin-bottom: 2px !important;
+  margin-top: -10px;
+}
+
+#powered {
+  margin-top: 2px !important;
+}
+
 #author {
   font-weight: 900;
 }
@@ -162,7 +179,7 @@ ul .special {
   font-size: 14px;
   position: absolute;
   right: 20px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 button.copy {
@@ -183,4 +200,9 @@ button.copy {
   background-size: 20px;
   background-repeat: no-repeat;
   transition: border-color 0.25s, background-color 0.25s, opacity 0.25s;
+}
+
+.mono-emoji {
+  font-family: 'Noto Emoji';
+  color: var(--color-accent);
 }

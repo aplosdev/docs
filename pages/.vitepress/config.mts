@@ -4,7 +4,8 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   lang: "en-US",
   title: "Aplós",
-  description: "Aplós is a sleek, contemporary, and purposefully designed theme and template",
+  description:
+    "Aplós is a sleek, contemporary, and purposefully designed theme and template",
 
   lastUpdated: true,
   cleanUrls: true,
@@ -19,6 +20,7 @@ export default defineConfig({
   },
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["meta", { name: "theme-color", content: "#ff3e00" }],
     ["meta", { name: "og:type", content: "website" }],
     ["meta", { name: "og:locale", content: "en" }],
     ["meta", { name: "og:site_name", content: "Aplós" }],
@@ -49,7 +51,7 @@ export default defineConfig({
   ],
   themeConfig: {
     nav: [
-      { text: "Guide", link: "/guide" },
+      { text: "Guide", link: "/guide/" },
       { text: "CSS", link: "/css" },
       { text: "Demo", link: "/demo" },
 
