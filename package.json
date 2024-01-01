@@ -1,6 +1,6 @@
 {
   "name": "aplos",
-  "version": "0.8.9private",
+  "version": "1.0.0-rc.1",
   "description": "Aplós is a sleek, contemporary, and purposefully designed theme and template",
   "author": "Gabriel Cozma",
   "license": "MIT",
@@ -11,6 +11,7 @@
     "pages:preview": "vitepress preview pages"
   },
   "dependencies": {
+    "@fontsource/noto-color-emoji": "^5.0.19",
     "@fontsource/noto-emoji": "^5.0.17",
     "@fontsource/source-code-pro": "^5.0.16",
     "inter-ui": "^4.0.1",

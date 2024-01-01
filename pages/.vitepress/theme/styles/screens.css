@@ -1,6 +1,8 @@
 @media screen and (max-width: 1414px) {
     main {
-      margin: 150px 30px !important;
+      margin-top: 150px  !important;
+      margin-bottom: 150px !important;
+      width: 85vw !important;
     }
     nav {
       padding: 5px 20px !important;

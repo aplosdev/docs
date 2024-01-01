@@ -1,19 +1,17 @@
 <div align="center">
 <h1>Aplós</h1>
 
-  **Aplós** is a sleek, contemporary, and purposefully designed theme built on Aeolus. It provides a straightforward solution for creating a quick web page, offering essential features for comfortable writing while maintaining a sense of simplicity.
-  
+  **Aplós** is a sleek, contemporary, and purposefully designed Vitepress theme & Template. It provides a straightforward solution for creating a quick web page, offering essential features for comfortable writing while maintaining a sense of simplicity.
 
 </div>
 
 ![aplos-screenshot](https://github.com/GabsEdits/aplos/assets/110247388/3e0b007e-f504-42ce-bc5e-aed35323c05d)
 
-
-- Lightweight and minimalistic, eliminating the need for JavaScript.
+- Lightweight and minimalistic, using Vitepress.
 - Elegantly styled with a primary color theme for a visually pleasing experience.
 - Mobile-friendly design with support for dark mode.
 - Optimized for social media sharing with meta cards.
-- Utilizes premium fonts: Inter for text and Source Code Pro for code snippets.
+- Utilizes premium fonts: Inter for text, Source Code Pro for code snippets and Noto (Color) Emoji for emojis.
 - Local development made easy with NPM integration.
 
 

@@ -31,10 +31,14 @@ body {
 }
 
 main {
-  margin: 7% 25%;
+  width: 60vw;
+  margin-top: 7%;
+  margin-bottom: 7%;
   font-size: 1rem;
   line-height: 1.5;
-  min-height: calc(100vh - 160px);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 963px;
 }
 
 body {
@@ -134,8 +138,8 @@ footer {
   right: 0;
   padding: 20px;
   margin: 0 10px 10px 10px;
-  background-color: var(--color-background-second);
   border-radius: 10px;
+  border: 1px solid var(--color-border);
   text-align: center;
 }
 
@@ -175,7 +179,7 @@ ul .special {
 
 .lang {
   color: var(--color-text-secondary);
-  font-family: var(--vp-font-family-mono);
+  font-family: 'Source Code Pro', monospace;
   font-size: 14px;
   position: absolute;
   right: 20px;
