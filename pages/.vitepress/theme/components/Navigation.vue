@@ -13,8 +13,8 @@
                         {{ navItem.text }}
                     </a>
                 </li>
-                <li v-if="showGitLink">
-                    <a :href="getGitLink()">
+                <li v-if="theme.nav.git">
+                    <a :href="theme.nav.git">
                         <GitAlt />
                     </a>
                 </li>
@@ -42,12 +42,5 @@ onMounted(() => {
     }
 });
 
-const getGitLink = () => {
-const gitNavItem = theme.value.nav.find((navItem: { text: string; link: string }) => navItem.text === '.Repo');
-  return gitNavItem ? gitNavItem.link : '#';
-};
-
-const navigation = theme.value.nav.filter((navItem: { text: string }) => navItem.text !== '.Repo');
-
-const showGitLink = theme.value.nav.some((navItem: { text: string }) => navItem.text === '.Repo');
+const navigation = theme.value.nav.links;
 </script>

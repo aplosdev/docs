@@ -10,6 +10,28 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
 
+  themeConfig: {
+    author: "Gabriel Cozma/Gabs",
+    nav: {
+      links: [
+        { text: "Guide", link: "/guide/" },
+        { text: "CSS", link: "/css" },
+        { text: "Demo", link: "/demo" },
+      ],
+      git: "https://github.com/GabsEdits/aplos",
+    },
+    footer: {
+      copyright: true,
+      poweredBy: true,
+
+      madeby: {
+        show: true,
+        name: "Gabs",
+        link: "https://gxbs.me",
+      },
+    },
+  },
+
   markdown: {
     container: {
       warningLabel: "⚠ Warning",
@@ -19,6 +41,7 @@ export default defineConfig({
     },
   },
   head: [
+    ["meta", { name: "author", content: "Gabriel Cozma/Gabs" }],
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["meta", { name: "theme-color", content: "#ff3e00" }],
     ["meta", { name: "og:type", content: "website" }],
@@ -49,19 +72,7 @@ export default defineConfig({
     ],
     ["meta", { name: "twitter:url", content: "https://aplos.gxbs.me" }],
   ],
-  themeConfig: {
-    nav: [
-      { text: "Guide", link: "/guide/" },
-      { text: "CSS", link: "/css" },
-      { text: "Demo", link: "/demo" },
-
-      {
-        text: ".Repo", // don't touch this
-        link: "https://github.com/GabsEdits/aplos",
-      },
-    ],
-  },
   sitemap: {
-    hostname: "https://aploss.gxbs.me",
+    hostname: "https://aplos.gxbs.me",
   },
 });

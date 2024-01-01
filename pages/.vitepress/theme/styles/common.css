@@ -136,9 +136,19 @@ hr {
 code {
   font-family: "Source Code Pro", monospace;
   background-color: var(--color-background-second);
-  border-radius: 10px;
-  padding: 3px;
+  border-radius: 7px;
+  color: var(--color-accent);
+  padding: 1px 6px;
   font-size: 14px;
+  border: 1px solid var(--color-border);
+}
+
+pre code {
+  background-color: transparent;
+  color: var(--color-text);
+  border-radius: 0;
+  padding: 0;
+  border: 0px;
 }
 
 kbd {
@@ -214,7 +224,7 @@ mark {
   font-weight: 800;
   letter-spacing: -12.2px;
   line-height: -2px;
-  color: var(--color-text-primary);
+  color: var(--color-text);
 }
 
 ul {
