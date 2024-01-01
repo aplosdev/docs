@@ -17,7 +17,7 @@
 
 ## Name
 
-The name 'Aplós', pronounced as `/aplós/` volume_up is the Romanized representation of the Greek word 'Απλός,' which translates to 'Simple' or 'Pure and simple'. This naming choice that showcases the essence of the project— it's dedication to providing users with a traightforward and modern web experience. Aplós is centered around the philosophy of simplicity, aiming to deliver an uncomplicated and contemporary solution for website creation.
+The name 'Aplós', pronounced as `/aplós/` is the Romanized representation of the Greek word 'Απλός,' which translates to 'Simple' or 'Pure and simple'. This naming choice that showcases the essence of the project— it's dedication to providing users with a traightforward and modern web experience. Aplós is centered around the philosophy of simplicity, aiming to deliver an uncomplicated and contemporary solution for website creation.
 
 ## Thanks ❤ & Credits️:
 
