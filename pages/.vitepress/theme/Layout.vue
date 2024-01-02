@@ -7,6 +7,7 @@ import Navigation from './components/Navigation.vue';
 
 const { site, frontmatter, page, theme } = useData()
 
+/*
 const generateCSS = () => {
 
   let cssString = ":root {\n";
@@ -44,6 +45,7 @@ const generateCSS = () => {
 };
 
 generateCSS();
+*/
 </script>
 
 <template>

@@ -1,14 +1,16 @@
 /*
- * Aplos version 1.0.0-rc.3 (https://aplos.gxbs.me/)
+ * Aplos version 1.0.0-rc.4 (https://aplos.gxbs.me/)
  * Copyright 2023 Gabriel Cozma/Gabs
  * Licensed under MIT (https://github.com/GabsEdits/aplos/src/branch/main/LICENSE)
  
  * Based on Vitepress (https://vitepress.dev) & Duckquill (https://daudix.codeberg.page/duckquill)
 */
 
-@import "common.css";
-@import "screens.css";
-@import "cards.css";
+@import "../../custom.scss";
+@import "common.scss";
+@import "screens.scss";
+@import "cards.scss";
+@import "color.scss";
 
 :root {
   font-family: Inter, sans-serif;

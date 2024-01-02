@@ -13,7 +13,7 @@ Let's see how we can do that:
 You can start by running the following commands in your terminal:
 
 ```bash
-git clone https://github.com/GabsEdits/aplus
+git clone https://github.com/GabsEdits/aplos-template
 ```
 
 With that, you can go on to open your newly cloned `git` repo in your favorite IDE/Code Editor and open the `/pages/`, then `/.vitepress/` and you will see `config.mts`, that's where you will edit the following:
