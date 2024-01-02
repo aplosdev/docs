@@ -42,7 +42,7 @@ Aplós whouldn't be possible without the following projects:
 ## Project
 
 ```md
-- Aplos version 1.0.0-rc.2(https://aplos.gxbs.me/)
+- Aplos version 1.0.0-rc.3(https://aplos.gxbs.me/)
 - Copyright 2023 Gabriel "Gabs" Cozma
 - Licensed under [MIT](https://github.com/GabsEdits/aplos/src/branch/main/LICENSE)
 - Based on [Vitepress](https://vitepress.dev) & insipred by [Duckquill](https://daudix.codeberg.page/duckquill)

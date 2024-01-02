@@ -108,33 +108,32 @@ With that changed, you are ready to go to the next step:
 
 ### Colors
 
-You can change the accent color inside `/pages/.vitepress/theme/styles/color.css`, you can change everything there and make it your own! This is how the file should look:
+You can change the accent color also inside `config.mts`, you can change everything there and make it your own!
 
-```css{2-6,16-19}
-:root {
-  --color-background: #fdfff5;
-  --color-background-second: #faffe0;
-  --color-header: #fdfff5bd;
-  --color-text: #000;
-  --color-accent: #9eb036;
+```ts{2,8-12,15-19}
+colorScheme: {
+      accent: "#c1b134",
+      shadow: "0px 10px 34px 0px rgba(0, 0, 0, 0.15)",
+      textsecondary: "#6c6c6c",
+      border: "#75757560",
 
-  --color-text-secondary: #6c6c6c;
-  --color-border: #74747460;
-
-  --base-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.15);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: #12120e;
-    --color-background-second: #21251b;
-    --color-header: #12120eb5;
-    --color-text: #fff;
-
-    --base-shadow: 0px 10px 34px 0px rgb(0 0 0 / 40%);
-  }
-}
+      light: {
+        "background": "#faf8ed",
+        "background-second": "#f0eee1",
+        "background-mute": "#f1edd0",
+        "header": "faf8edbb",
+        "text": "#2c2c2c",
+      },
+      dark: {
+        "background": "#141414",
+        "background-second": "#1a1a1a",
+        "background-mute": "#1e1e1e",
+        "header": "#141414bb",
+        "text": "#e3e3e3",
+      },
+    },
 ```
+
 
 ## Start Writing!
 

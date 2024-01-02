@@ -15,7 +15,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo labore aperiam, as
 
 > “Simplicity is the ultimate sophistication.”
 >
->  — Leonardo da Vinci
+> >  — Leonardo da Vinci
 
 ## Lorem.
 
@@ -143,3 +143,12 @@ This is a details block.
 <kbd>⌘ Super</kbd> + <kbd>Space</kbd>
 
 Use this when something is <mark>really important</mark>
+
+## Table
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+| Something   | And wow     |
+| I don't know| And huh     |

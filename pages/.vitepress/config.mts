@@ -12,6 +12,27 @@ export default defineConfig({
 
   themeConfig: {
     author: "Gabriel Cozma/Gabs",
+    colorScheme: {
+      accent: "#c1b134",
+      shadow: "0px 10px 34px 0px rgba(0, 0, 0, 0.15)",
+      textsecondary: "#6c6c6c",
+      border: "#75757560",
+
+      light: {
+        "background": "#faf8ed",
+        "background-second": "#f0eee1",
+        "background-mute": "#f1edd0",
+        "header": "faf8edbb",
+        "text": "#2c2c2c",
+      },
+      dark: {
+        "background": "#141414",
+        "background-second": "#1a1a1a",
+        "background-mute": "#1e1e1e",
+        "header": "#141414bb",
+        "text": "#e3e3e3",
+      },
+    },
     nav: {
       links: [
         { text: "Guide", link: "/guide/" },

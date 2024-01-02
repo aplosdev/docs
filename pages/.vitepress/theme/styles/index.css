@@ -1,5 +1,5 @@
 /*
- * Aplos version 0.8.9private (https://aplos.gxbs.me/)
+ * Aplos version 1.0.0-rc.3 (https://aplos.gxbs.me/)
  * Copyright 2023 Gabriel Cozma/Gabs
  * Licensed under MIT (https://github.com/GabsEdits/aplos/src/branch/main/LICENSE)
  
@@ -9,7 +9,6 @@
 @import "common.css";
 @import "screens.css";
 @import "cards.css";
-@import "color.css";
 
 :root {
   font-family: Inter, sans-serif;

@@ -82,6 +82,11 @@ blockquote {
   max-width: 97%;
 }
 
+blockquote blockquote {
+  margin: 5px 0;
+  padding: 5px 10px;
+}
+
 blockquote p {
   color: var(--color-text-secondary);
   margin: 0;
@@ -172,9 +177,42 @@ kbd:active {
 mark {
   background-color: var(--color-background-second);
   color: var(--color-accent);
-  margin: 0 6px;
+  margin: 0;
   padding: 2px 6px 3px 6px;
   border-radius: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  table-layout: fixed;
+  width: 100%;
+}
+
+table th {
+  background-color: var(--color-background-mute);
+  color: var(--color-accent);
+  font-weight: 700;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+table td {
+  color: var(--color-text);
+  padding: 10px 20px;
+}
+
+table tr {
+  background-color: var(--color-background);
+}
+
+table tr:nth-child(2n) {
+  background-color: var(--color-background-second);
+}
+
+table tr:first-child {
+  border-bottom: 0px solid var(--color-border);
 }
 
 /* Others */
