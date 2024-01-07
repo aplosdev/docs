@@ -14,10 +14,9 @@ home: true
 > “Simplicity is the ultimate sophistication.”\
 > — Leonardo da Vinci
 
-::: warning
-This project is still in development, but close to stable release. There is still a long list of other thing that have to be added to the project.
-
-But that doesn't mean that you can't use it :wink:
+::: info Announcement
+The project has just reached Stable :tada:\
+Check out the blog I made about the journey in developing this project here: [blog.gabs.eu.org/posts/behind-aplós](https://blog.gabs.eu.org/posts/behind-aplós.html)
 :::
 
 ## Name
