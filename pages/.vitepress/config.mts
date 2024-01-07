@@ -45,7 +45,7 @@ export default defineConfig({
   },
   head: [
     ["meta", { name: "author", content: "Gabriel Cozma/Gabs" }],
-    ["link", { rel: "icon", href: "/favicon.png" }],
+    ["link", { rel: "icon", href: "/favicon.ico" }],
     ["meta", { name: "theme-color", content: "#ff3e00" }],
     ["meta", { name: "og:type", content: "website" }],
     ["meta", { name: "og:locale", content: "en" }],
