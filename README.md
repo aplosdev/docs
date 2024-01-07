@@ -5,7 +5,7 @@
 
 </div>
 
-![aplos-screenshot](https://github.com/GabsEdits/aplos/assets/110247388/3e0b007e-f504-42ce-bc5e-aed35323c05d)
+![screenshot-aplos](https://github.com/GabsEdits/aplos/assets/110247388/a6e4019c-52f9-472d-9ea7-f97578a40205)
 
 - Lightweight and minimalistic, using Vitepress.
 - Elegantly styled with a primary color theme for a visually pleasing experience.
