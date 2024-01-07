@@ -13,6 +13,11 @@
                         {{ navItem.text }}
                     </a>
                 </li>
+                <li v-if="theme.nav.rss">
+                    <a :href="theme.nav.rss">
+                        <RSSFeed />
+                    </a>
+                </li>
                 <li v-if="theme.nav.git">
                     <a :href="theme.nav.git">
                         <GitAlt />
@@ -27,6 +32,7 @@
 import { onMounted, ref } from 'vue';
 import { useData } from 'vitepress';
 import GitAlt from '../icons/GitAlt.vue';
+import RSSFeed from '../icons/RSSFeed.vue';
 
 const { site, theme } = useData();
 

@@ -9,7 +9,7 @@ home: true
 - Mobile-friendly design with support for dark mode.
 - Optimized for social media sharing with meta cards.
 - Utilizes premium fonts: Inter for text, Source Code Pro for code snippets and Noto (Color) Emoji for emojis.
-- Local development made easy with NPM integration.
+- Local development made easy with NPM/PNPM integration.
 
 > “Simplicity is the ultimate sophistication.”\
 > — Leonardo da Vinci
@@ -22,7 +22,7 @@ But that doesn't mean that you can't use it :wink:
 
 ## Name
 
-The name 'Aplós', pronounced as `/aplóus/` <span class="mono-emoji" @click="playSound">🔊</span> is the Romanized representation of the Greek word 'Απλός,' which translates to 'Simple' or 'Pure and simple'. This naming choice that showcases the essence of the project— it's dedication to providing users with a traightforward and modern web experience. Aplós is centered around the philosophy of simplicity, aiming to deliver an uncomplicated and contemporary solution for website creation.
+The name 'Aplós', pronounced as `/aplóus/` <button class="mono-emoji" @click="playSound">🔊</button> is the Romanized representation of the Greek word 'Απλός,' which translates to 'Simple' or 'Pure and simple'. This naming choice that showcases the essence of the project— it's dedication to providing users with a traightforward and modern web experience. Aplós is centered around the philosophy of simplicity, aiming to deliver an uncomplicated and contemporary solution for website creation.
 
 ## Try & Use
 
@@ -42,9 +42,9 @@ Aplós whouldn't be possible without the following projects:
 ## Project
 
 ```md
-- Aplos version 1.0.0-rc.3(https://aplos.gxbs.me/)
-- Copyright 2023 Gabriel "Gabs" Cozma
-- Licensed under [MIT](https://github.com/GabsEdits/aplos/src/branch/main/LICENSE)
+- Aplos version 1.0.0 (https://aplos.gxbs.me/)
+- Copyright 2023-2024 Gabriel "Gabs" Cozma
+- Licensed under [MIT](https://github.com/GabsEdits/aplos/blob/main/LICENSE)
 - Based on [Vitepress](https://vitepress.dev) & insipred by [Duckquill](https://daudix.codeberg.page/duckquill)
 - A part of the [Aeolus](https://gabs.eu.org/aeolus) family
 ```

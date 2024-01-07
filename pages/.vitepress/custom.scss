@@ -1,5 +1,14 @@
 // Used for custom styles for the theme, that are not theme specific & there by default, user made.
 // Good example is the color scheme, which is not theme specific, but user made, all you need is put the hex, and a color pallate is generated.
 
-$color-accent: #c1b134;
+@use "sass:color";
 
+$color-accent: #C18C5D; // 9e829c, C18C5D, C19875, 7BAE7F, 91C499, BBB891 **ffe947**
+
+/* 1. BBB891 */
+/* 2. 7BAE7F */
+/* 3. C18C5D */
+/* 4. C19875 */
+/* 5. 91C499 */
+/* 6. ffe947 */
+/* 7. 9e829c */

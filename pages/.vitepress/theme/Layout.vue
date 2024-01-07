@@ -6,46 +6,6 @@ import SiteFooter from './components/Footer.vue';
 import Navigation from './components/Navigation.vue';
 
 const { site, frontmatter, page, theme } = useData()
-
-/*
-const generateCSS = () => {
-
-  let cssString = ":root {\n";
-
-  const processObject = (obj: Record<string, any>, prefix = '--color') => {
-    for (const [key, value] of Object.entries(obj)) {
-      const variableName = `${prefix}-${key}`;
-      if (typeof value === 'object') {
-        processObject(value, variableName);
-      } else {
-        cssString += `  ${variableName}: ${value};\n`;
-      }
-    }
-  };
-
-  if (theme.value && theme.value.colorScheme) {
-    processObject({ 'color-accent': theme.value.colorScheme.accent, 'base-shadow': theme.value.colorScheme.shadow, 'color-text-secondary': theme.value.colorScheme.textsecondary, 'color-border': theme.value.colorScheme.border }, '-');
-
-    processObject(theme.value.colorScheme.light);
-
-    cssString += "}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n";
-
-    processObject(theme.value.colorScheme.dark);
-
-    cssString += "  }\n}";
-
-    if (typeof document !== 'undefined') {
-      const style = document.createElement("style");
-      style.textContent = cssString;
-      document.head.appendChild(style);
-    }
-  } else {
-    console.error('theme.value or theme.value.colorScheme is undefined');
-  }
-};
-
-generateCSS();
-*/
 </script>
 
 <template>
