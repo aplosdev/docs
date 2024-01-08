@@ -1,3 +1,12 @@
+<div class="table-small">
+
+|    Table of Content   |
+| --------------------- |
+| [Photo & Video](#photo--video) |
+| [Information boxes](#information-boxes) |
+
+</div>
+
 # Header 1
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo labore aperiam, asperiores doloribus earum qui id harum neque modi nostrum similique. Rerum consequatur ab eaque velit consequuntur blanditiis praesentium commodi.
@@ -75,7 +84,7 @@ We also have lines.
 
 ---
 
-## Custom Containers
+## Information boxes
 
  Aplus has various types of information boxes.
   

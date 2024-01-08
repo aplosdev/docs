@@ -26,6 +26,7 @@ export default defineConfig({
     footer: {
       copyright: true,
       poweredBy: true,
+      startYear: 2023, // remove this if you started the project before the current year.
 
       madeby: {
         show: true,

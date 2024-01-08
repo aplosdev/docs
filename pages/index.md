@@ -2,9 +2,9 @@
 home: true
 ---
 
-**Aplós** is a sleek, contemporary, and purposefully designed Vitepress theme & template. It provides a straightforward solution for creating a quick web page, offering essential features for comfortable writing while maintaining a sense of simplicity.
+**Aplós** is a sleek, contemporary, and purposefully designed VitePress theme & template. It provides a straightforward solution for creating a quick web page, offering essential features for comfortable writing while maintaining a sense of simplicity.
 
-- Lightweight and minimalistic, using Vitepress.
+- Lightweight and minimalistic, using VitePress.
 - Elegantly styled with a primary color theme for a visually pleasing experience.
 - Mobile-friendly design with support for dark mode.
 - Optimized for social media sharing with meta cards.
@@ -35,7 +35,7 @@ Aplós whouldn't be possible without the following projects:
 - [Inter](https://rsms.me/inter/), which is the font used in **all** _Aeolus_ apps.
 - [Source Code Pro](https://adobe-fonts.github.io/source-code-pro/), used for code snippets.
 - [Noto Color Emoji](https://fonts.google.com/noto/specimen/Noto+Color+Emoji), used for all emojis.
-- [Vitepress](https://vitepress.dev), which is used to power Aplós
+- [VitePress](https://vitepress.dev), which is used to power Aplós
 - Everyone that supported the project
 
 ## Project
@@ -44,7 +44,7 @@ Aplós whouldn't be possible without the following projects:
 - Aplos version 1.0.0 (https://aplos.gxbs.me/)
 - Copyright 2023-2024 Gabriel "Gabs" Cozma
 - Licensed under [MIT](https://github.com/GabsEdits/aplos/blob/main/LICENSE)
-- Based on [Vitepress](https://vitepress.dev) & insipred by [Duckquill](https://daudix.codeberg.page/duckquill)
+- Based on [VitePress](https://vitepress.dev) & insipred by [Duckquill](https://daudix.codeberg.page/duckquill)
 - A part of the [Aeolus](https://gabs.eu.org/aeolus) family
 ```
 
