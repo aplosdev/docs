@@ -5,15 +5,15 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource-variable/noto-emoji':
+    specifier: ^5.0.17
+    version: 5.0.17
+  '@fontsource-variable/source-code-pro':
+    specifier: ^5.0.17
+    version: 5.0.17
   '@fontsource/noto-color-emoji':
     specifier: ^5.0.19
     version: 5.0.19
-  '@fontsource/noto-emoji':
-    specifier: ^5.0.17
-    version: 5.0.17
-  '@fontsource/source-code-pro':
-    specifier: ^5.0.16
-    version: 5.0.16
   inter-ui:
     specifier: ^4.0.1
     version: 4.0.1
@@ -462,16 +462,16 @@ packages:
     dev: false
     optional: true
 
+  /@fontsource-variable/noto-emoji@5.0.17:
+    resolution: {integrity: sha512-4Am5VxX/AOwEmkD/iGtsUOZRglHlPZ3vLG7gS3V4rYksjD4iyJ6J+C57uMfwuJCQiJItzjWhWXgCcNPi91eB2w==}
+    dev: false
+
+  /@fontsource-variable/source-code-pro@5.0.17:
+    resolution: {integrity: sha512-O1Hn0QamTJDfFauR68ALijno0xTOy/sJAE/cORyP2s5unEiJOZj0EBQIhHymHdS7XI+xccAfSEdaZNmz9rhttA==}
+    dev: false
+
   /@fontsource/noto-color-emoji@5.0.19:
     resolution: {integrity: sha512-N8vhyane1zE88eC/bQm19h2CsVCCaJqMPHTKGuq5RIsWHTGH6PdzbG4ZYsq2N0W4ai8Mh+OI4NoHJPqoP9l08g==}
-    dev: false
-
-  /@fontsource/noto-emoji@5.0.17:
-    resolution: {integrity: sha512-Yn8+Z/+xxAxkzDYq3HjcLEwhA0lVPgTb6NXPwlxEH8AolrXToPVDrcvtXU5ySpMc1GjnVmS+5ZephVU4aFnExw==}
-    dev: false
-
-  /@fontsource/source-code-pro@5.0.16:
-    resolution: {integrity: sha512-ErErGXjKo9/fAJE49fyU8M6DuJUpdqR5YLM8jGJOC5ZcKIDSTQ5m+R3DTa0VYHAGGFbk2qLWVWD/r5sfCLA/jQ==}
     dev: false
 
   /@gar/promisify@1.1.3:

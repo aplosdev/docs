@@ -3,7 +3,7 @@
 
 @use "sass:color";
 
-$color-accent: #C18C5D; // 9e829c, C18C5D, C19875, 7BAE7F, 91C499, BBB891 **ffe947**
+$color-accent: #c18c5d; // 9e829c, C18C5D, C19875, 7BAE7F, 91C499, BBB891 **ffe947**
 
 /* 1. BBB891 */
 /* 2. 7BAE7F */
@@ -13,7 +13,11 @@ $color-accent: #C18C5D; // 9e829c, C18C5D, C19875, 7BAE7F, 91C499, BBB891 **ffe9
 /* 6. ffe947 */
 /* 7. 9e829c */
 
-
 .table-small table {
-    width: max-content;
+  width: max-content;
+}
+
+.mono-emoji {
+  font-family: "Noto Emoji";
+  color: var(--color-accent);
 }

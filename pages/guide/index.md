@@ -12,6 +12,7 @@ outline: deep
 | [Customizing Configuration](#customizing-configuration) |
 | [Customizing Colors](#customizing-colors) |
 | [Start Writing!](#start-writing) |
+| [Automatically Update Aplós](#automatically-update-aplós) |
 | [Deployment](#deployment) |
 
 </div>
@@ -134,6 +135,32 @@ $color-accent: *your-accent-color-hex*;
 ## Start Writing!
 
 With the configuration set up, you can now start creating and editing your files. Utilize the `pages` folder to add new pages and customize the Navigation Island to suit your preferences.
+
+## Automatically Update Aplós
+
+To automatically update Aplós, which is a git submodule hosted on GitHub, you can use Dependabot. Follow these steps to set it up:
+
+1. Inside your project repository that uses Aplós, create a file called `dependabot.yml` within the `.github/` folder.
+
+2. Add the following configuration to `dependabot.yml`:
+
+```yml
+version: 2
+
+updates:
+  - package-ecosystem: gitsubmodule
+    schedule:
+        interval: "daily"
+    directory: /
+```
+
+This configuration tells Dependabot to check for updates to the git submodule (gitsubmodule) daily and apply them to the root directory (directory: /).
+
+By setting up Dependabot with this configuration, you ensure that Aplós stays up-to-date automatically, saving you the hassle of manually managing submodule updates.
+
+::: tip
+You can even use this on other projects that use git submodules, as it saves alot of time
+:::
 
 ## Deployment
 
