@@ -4,6 +4,11 @@
 | --------------------- |
 | [Photo & Video](#photo--video) |
 | [Information boxes](#information-boxes) |
+| [Table](#table) |
+| [Small Text](#small-text) |
+| [Time](#time) |
+
+
 
 </div>
 
@@ -161,3 +166,41 @@ Use this when something is <mark>really important</mark>
 | Paragraph   | Text        |
 | Something   | And wow     |
 | I don't know| And huh     |
+
+## Small Text
+
+You can add small text by using the `<small>` tag.
+
+### Input
+```html
+<small>Something Small</small>
+```
+
+### Output
+<small>Something Small</small>
+
+## Time
+
+You can show a specific time by using the `<time>` tag:
+
+#### Input
+```html
+<time>10:00</time>
+```
+
+#### Output
+<time>10:00</time>
+
+### Time Animation
+
+You also can have an animation to the time like this one: <time><span>11:00</span></time>
+
+
+#### Input
+```html
+<time><span>11:00</span></time>
+```
+
+#### Output
+<time><span>11:00</span></time>
+
