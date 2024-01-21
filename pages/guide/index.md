@@ -165,3 +165,39 @@ You can even use this on other projects that use git submodules, as it saves alo
 ## Deployment
 
 To deploy your website, follow the deployment guide provided by Vitepress: [Deploy Your VitePress Site](https://vitepress.dev/guide/deploy)
+
+### Codeberg
+
+In the case of you wanting to host your website on Codeberg, it's actually not that hard:
+
+#### Installing the needed package
+
+There is actually a really simple and nice NPM package that helps you deploy your project to Codeberg. The package is called `codeberg-pages` you can install by running:
+
+```bash
+npm install codeberg-pages
+```
+
+Then, make a script to run the script:
+
+```bash
+(...)
+  "scripts": {
+    (...)
+    "pages:deploy": "codeberg-pages pages/.vitepress/dist"
+  },
+(...)
+```
+
+With that added you can run:
+
+```bash
+npm run pages:deploy
+```
+
+That will create a new branch called "pages" where the build output will stay.
+
+<br>
+
+> You also might be able to run this script everytime you push using Codeberg CI, but I will have to check before writing the docs.
+
