@@ -170,7 +170,7 @@ To deploy your website, follow the deployment guide provided by Vitepress: [Depl
 
 In the case of you wanting to host your website on Codeberg, it's actually not that hard:
 
-#### Installing the needed package
+- **Installing the needed package**
 
 There is actually a really simple and nice NPM package that helps you deploy your project to Codeberg. The package is called `codeberg-pages` you can install by running:
 
