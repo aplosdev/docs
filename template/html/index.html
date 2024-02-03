@@ -9,30 +9,31 @@
 </head>
 <!-- Colors -->
 <style>
-:root {
-  --color-background: #fff;
-  --color-background-second: #b5b5b5;
-  --color-accent: #ff8800;
-  --color-header: #fdfbf8c9;
-  --color-text: #000;
+    :root {
+        --color-background: #fff;
+        --color-background-second: #b5b5b5;
+        --color-accent: #ff8800;
+        --color-header: #fdfbf8c9;
+        --color-text: #000;
 
-  --color-text-secondary: #6c6c6c;
-  --color-border: #74747460;
-  --base-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.15);
-}
+        --color-text-secondary: #6c6c6c;
+        --color-border: #74747460;
+        --base-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.15);
+    }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: #121212;
-    --color-background-second: #272727;
-    --color-accent: #ff8800;
-    --color-header: #000000e0;
-    --color-text: #fff;
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --color-background: #121212;
+            --color-background-second: #272727;
+            --color-accent: #ff8800;
+            --color-header: #121212c5;
+            --color-text: #fff;
 
-    --base-shadow: 0px 10px 34px 0px rgb(0 0 0 / 40%);
-  }
-}
+            --base-shadow: 0px 10px 34px 0px rgb(0 0 0 / 40%);
+        }
+    }
 </style>
+
 <body>
     <header>
         <nav>
@@ -43,7 +44,13 @@
                 <li><a href="/1">1</a></li>
                 <li><a href="/2">2</a></li>
                 <li><a href="/3">3</a></li>
-                <li><a href="source-code"> <i class="fa-brands fa-github-alt"></i>
+                <li><a href="source-code">
+                        <div class="svg-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" height="16" width="16">
+                                <path
+                                    d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" />
+                            </svg>
+                        </div>
                     </a></li>
             </ul>
         </nav>
@@ -76,16 +83,13 @@
             veritatis, quis soluta.</p>
     </main>
     <footer>
-        <p>
-            Made with ❤️ by <a href="https://you.you" id="me">You</a>
+        <p> Made with ❤️ by <a href="you.me" id="author"><mark>You</mark></a></p>
+        <p id="copyright">&copy; 2023 -</span> 2024 You. All rights
+            reserved. </p>
+        <p id="powered"> Powered by <a href="https://vitepress.dev/">VitePress</a> and <a
+                href="https://aplos.gxbs.me">Aplós</a>
         </p>
-        <p id="author">
-            &copy; 2023 You. All rights reserved.
-        </p>
-        <p id="powered">
-            Powered by <a href="https://gabs.eu.org/aeolus">Aeolus</a> and <a href="https://vitejs.dev/">Vite</a>
-        </p>
-        <a href="source-code"><i class="fa-brands fa-github-alt"></i></a>
     </footer>
 </body>
+
 </html>

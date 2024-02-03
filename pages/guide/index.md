@@ -132,6 +132,8 @@ $color-accent: *your-accent-color-hex*;
 
 With the configuration set up, you can now start creating and editing your files. Utilize the `pages` folder to add new pages and customize the Navigation Island to suit your preferences.
 
+---
+
 ## Automatically Update Aplós
 
 To automatically update Aplós, which is a git submodule hosted on GitHub, you can use Dependabot. Follow these steps to set it up:

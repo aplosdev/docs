@@ -10,6 +10,7 @@ home: true
 - Optimized for social media sharing with meta cards.
 - Utilizes premium fonts: Inter for text, Source Code Pro for code snippets and Noto (Color) Emoji for emojis.
 - Local development made easy with NPM/PNPM integration.
+- Every asset is local, nothing is pulled from the internet.
 
 > “Simplicity is the ultimate sophistication.”\
 > — Leonardo da Vinci
@@ -41,8 +42,8 @@ Aplós whouldn't be possible without the following projects:
 ## Project
 
 ```md
-- Aplos version 1.0.0 (https://aplos.gxbs.me/)
-- Copyright 2023-2024 Gabriel "Gabs" Cozma
+- Aplos version 1.1.0 (https://aplos.gxbs.me/)
+- Copyright 2023-2024 Gabriel Cozma / Gabs
 - Licensed under [MIT](https://github.com/GabsEdits/aplos/blob/main/LICENSE)
 - Based on [VitePress](https://vitepress.dev) & insipred by [Duckquill](https://daudix.codeberg.page/duckquill)
 - A part of the [Aeolus](https://gabs.eu.org/aeolus) family

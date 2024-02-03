@@ -18,7 +18,7 @@ export default defineConfig({
     nav: {
       links: [
         { text: "Guide", link: "/guide/" },
-        { text: "CSS", link: "/css" },
+        { text: "Static", link: "/static" },
         { text: "Demo", link: "/demo" },
       ],
       git: "https://github.com/GabsEdits/aplos",
