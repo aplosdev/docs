@@ -168,9 +168,60 @@ To deploy your website, follow the deployment guide provided by Vitepress: [Depl
 
 In the case of you wanting to host your website on Codeberg, it's actually not that hard:
 
+#### **Workflow**
+
+If you have access to [Codeberg CI](https://codeberg.org/Codeberg-e.V./requests/#woodpecker-ci) take advantage of the straightforward workflow I've created. This workflow automates the process of building your website whenever you make a push, deploying the deployment of your changes:
+
+```yml
+# Exclude page pipeline to be run on "pages" branch
+when:
+  branch:
+    exclude: pages
+
+# Recursive cloning is used to fully clone the themes given as Git submodules
+clone:
+  git:
+    image: woodpeckerci/plugin-git
+    settings:
+      recursive: true
+
+steps:
+  # Build vitepress static files
+  build:
+    image: alpine
+    commands:
+      - apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/testing pnpm git
+      - pnpm install
+      - pnpm run pages:build
+    when:
+      event: [ pull_request, push ]
+
+  publish:
+    image: bitnami/git
+    # Must be set in Woodpecker configuration
+    secrets: [ mail, codeberg_token ]
+    commands:
+      - git config --global user.email $MAIL
+      - git config --global user.name "Woodpecker CI"
+      - git clone -b pages https://$CODEBERG_TOKEN@codeberg.org/$CI_REPO.git source-code
+      - rm -r source-code/*
+      - cp -ar ./pages/.vitepress/dist/* source-code/
+      - cd source-code
+      - git add --all
+      - git commit -m "Woodpecker CI ${CI_COMMIT_SHA} [SKIP CI]"
+      - git push
+
+    when:
+      event: push
+```
+
+To seamlessly integrate with your CI process, simply configure two essential secrets in your CI Settings:
+1. `mail`: This secret should contain the email associated with your account.
+2. `codeberg_token`: This secret should store a token from your account, equipped with read and write access for your repositories.
+
 #### **Installing the needed package**
 
-There is actually a really simple and nice NPM package that helps you deploy your project to Codeberg. The package is called `codeberg-pages` you can install by running:
+If you want to optout from using a workflow or don't want to make a request: There is actually a really simple and nice NPM package that helps you deploy your project to Codeberg. The package is called `codeberg-pages` you can install by running:
 
 ```bash
 npm install codeberg-pages
@@ -194,8 +245,3 @@ npm run pages:deploy
 ```
 
 That will create a new branch called "pages" where the build output will stay.
-
-<br>
-
-> You also might be able to run this script everytime you push using Codeberg CI, but I will have to check before writing the docs.
-
