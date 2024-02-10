@@ -35,8 +35,8 @@ export default defineConfig({
 
       copyleft: {
         show: true,
-        license: "MIT License"
-        info: "https://github.com/GabsEdits/aplos?tab=MIT-1-ov-file#readme"
+        license: "MIT License",
+        info: "https://github.com/GabsEdits/aplos?tab=MIT-1-ov-file#readme",
       },
     },
   },
