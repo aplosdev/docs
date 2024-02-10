@@ -26,12 +26,17 @@ export default defineConfig({
     footer: {
       copyright: true,
       poweredBy: true,
-      startYear: 2023, // remove this if you started the project before the current year.
 
       madeby: {
         show: true,
         name: "Gabs",
         link: "https://gxbs.me",
+      },
+
+      copyleft: {
+        show: true,
+        license: "MIT License"
+        info: "https://github.com/GabsEdits/aplos?tab=MIT-1-ov-file#readme"
       },
     },
   },
