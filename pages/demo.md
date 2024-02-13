@@ -2,7 +2,7 @@
 
 |    Table of Content   |
 | --------------------- |
-| [Photo & Video](#photo--video) |
+| [Photo & Video](#photo-video) |
 | [Information boxes](#information-boxes) |
 | [Table](#table) |
 | [Small Text](#small-text) |
