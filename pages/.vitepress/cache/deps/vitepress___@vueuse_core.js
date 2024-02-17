@@ -35,7 +35,7 @@ import {
   watchEffect
 } from "./chunk-ZFEJCA5L.js";
 
-// node_modules/.pnpm/vue-demi@0.14.6_vue@3.4.5/node_modules/vue-demi/lib/index.mjs
+// node_modules/.pnpm/vue-demi@0.14.7_vue@3.4.19/node_modules/vue-demi/lib/index.mjs
 var isVue2 = false;
 var isVue3 = true;
 function set(target, key, val) {
@@ -55,7 +55,7 @@ function del(target, key) {
   delete target[key];
 }
 
-// node_modules/.pnpm/@vueuse+shared@10.7.1_vue@3.4.5/node_modules/@vueuse/shared/index.mjs
+// node_modules/.pnpm/@vueuse+shared@10.7.2_vue@3.4.19/node_modules/@vueuse/shared/index.mjs
 function computedEager(fn, options) {
   var _a;
   const result = shallowRef();
@@ -1536,7 +1536,7 @@ function whenever(source, cb, options) {
   );
 }
 
-// node_modules/.pnpm/@vueuse+core@10.7.1_vue@3.4.5/node_modules/@vueuse/core/index.mjs
+// node_modules/.pnpm/@vueuse+core@10.7.2_vue@3.4.19/node_modules/@vueuse/core/index.mjs
 function computedAsync(evaluationCallback, initialState, optionsOrRef) {
   let options;
   if (isRef(optionsOrRef)) {
@@ -2504,7 +2504,7 @@ function blobToBase64(blob) {
 function useBattery(options = {}) {
   const { navigator = defaultNavigator } = options;
   const events2 = ["chargingchange", "chargingtimechange", "dischargingtimechange", "levelchange"];
-  const isSupported = useSupported(() => navigator && "getBattery" in navigator);
+  const isSupported = useSupported(() => navigator && "getBattery" in navigator && typeof navigator.getBattery === "function");
   const charging = ref(false);
   const chargingTime = ref(0);
   const dischargingTime = ref(0);
@@ -3846,8 +3846,8 @@ function useDraggable(target, options = {}) {
     const containerRect = (_a2 = container == null ? void 0 : container.getBoundingClientRect) == null ? void 0 : _a2.call(container);
     const targetRect = toValue(target).getBoundingClientRect();
     const pos = {
-      x: e.clientX - (container ? targetRect.left - containerRect.left : targetRect.left),
-      y: e.clientY - (container ? targetRect.top - containerRect.top : targetRect.top)
+      x: e.clientX - (container ? targetRect.left - containerRect.left + container.scrollLeft : targetRect.left),
+      y: e.clientY - (container ? targetRect.top - containerRect.top + container.scrollTop : targetRect.top)
     };
     if ((onStart == null ? void 0 : onStart(pos, e)) === false)
       return;
@@ -3867,12 +3867,12 @@ function useDraggable(target, options = {}) {
     if (axis === "x" || axis === "both") {
       x = e.clientX - pressedDelta.value.x;
       if (container)
-        x = Math.min(Math.max(0, x), containerRect.width - targetRect.width);
+        x = Math.min(Math.max(0, x), containerRect.width + container.scrollLeft - targetRect.width);
     }
     if (axis === "y" || axis === "both") {
       y = e.clientY - pressedDelta.value.y;
       if (container)
-        y = Math.min(Math.max(0, y), containerRect.height - targetRect.height);
+        y = Math.min(Math.max(0, y), containerRect.height + container.scrollTop - targetRect.height);
     }
     position.value = {
       x,
@@ -7114,7 +7114,7 @@ function useStorageAsync(key, initialValue, storage, options = {}) {
   const serializer = (_a = options.serializer) != null ? _a : StorageSerializers[type];
   if (!storage) {
     try {
-      storage = getSSRHandler("getDefaultStorage", () => {
+      storage = getSSRHandler("getDefaultStorageAsync", () => {
         var _a2;
         return (_a2 = defaultWindow) == null ? void 0 : _a2.localStorage;
       })();
