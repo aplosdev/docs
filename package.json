@@ -14,8 +14,7 @@
     "@fontsource/noto-emoji": "^5.0.17",
     "@fontsource/source-code-pro": "^5.0.16",
     "inter-ui": "^4.0.2",
-    "node-sass": "^9.0.0",
-    "vitepress": "1.0.0-rc.35"
+    "vitepress": "1.0.0-rc.42"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
