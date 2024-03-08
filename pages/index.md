@@ -40,7 +40,6 @@ Aplós whouldn't be possible without the following projects:
 - [Duckquill](https://daudix.codeberg.page/duckquill), from where I got inspired to create this project (and many ideas are from there)
 - [Inter](https://rsms.me/inter/), which is the font used in **all** _Aeolus_ apps.
 - [Source Code Pro](https://adobe-fonts.github.io/source-code-pro/), used for code snippets.
-- [Noto Color Emoji](https://fonts.google.com/noto/specimen/Noto+Color+Emoji), used for all emojis.
 - [VitePress](https://vitepress.dev), which is used to power Aplós.
 - Everyone that supported the project.
 
