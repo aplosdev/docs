@@ -1,5 +1,8 @@
 # Guide
 
+
+Aplós is a user-friendly template for Vitepress that allows you to quickly set up and customize your website. In just a few simple steps, you can configure the template to match your preferences. Let's walk through the process:
+
 <div class="table-small">
 
 |    Table of Content   |
@@ -12,9 +15,6 @@
 | [Deployment](#deployment) |
 
 </div>
-
-
-Aplós is a user-friendly template for Vitepress that allows you to quickly set up and customize your website. In just a few simple steps, you can configure the template to match your preferences. Let's walk through the process:
 
 ## Initialization
 

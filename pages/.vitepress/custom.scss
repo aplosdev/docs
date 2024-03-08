@@ -3,21 +3,40 @@
 
 @use "sass:color";
 
-$color-accent: #c18c5d; // 9e829c, C18C5D, C19875, 7BAE7F, 91C499, BBB891 **ffe947**
-
-/* 1. BBB891 */
-/* 2. 7BAE7F */
-/* 3. C18C5D */
-/* 4. C19875 */
-/* 5. 91C499 */
-/* 6. ffe947 */
-/* 7. 9e829c */
+$color-accent: #D16014; //D62839
 
 .table-small table {
   width: max-content;
 }
 
-.mono-emoji {
-  font-family: "Noto Emoji";
-  color: var(--color-accent);
+.center {
+  text-align: center;
+}
+
+.home {
+  #title {
+    margin: 0px;
+    color: var(--color-accent);
+  }
+
+  #aeolus,
+  #quote {
+    text-align: center;
+    font-style: italic;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+  }
+
+  #desc {
+    font-weight: 500;
+    color: var(--color-text-secondary);
+  }
+
+  aside {
+    width: 40%;
+    h2 {
+      font-size: 32px;
+      margin: 5px 0;
+    }
+  }
 }

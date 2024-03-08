@@ -19,7 +19,7 @@ export default defineConfig({
       links: [
         { text: "Guide", link: "/guide/" },
         { text: "Static", link: "/static" },
-        { text: "Demo", link: "/demo" },
+        { text: "Demo", link: "/demo/" },
       ],
       git: "https://github.com/GabsEdits/aplos",
     },
