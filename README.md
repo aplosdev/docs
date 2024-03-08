@@ -1,11 +1,13 @@
 <div align="center">
 <h1>Aplós</h1>
 
-  **Aplós** is a sleek, contemporary, and purposefully designed VitePress theme & Static Template. It provides a straightforward solution for creating a quick web page, offering essential features for comfortable writing while maintaining a sense of simplicity.
+ A sleek, contemporary, and purposefully designed VitePress theme & Static Template. It provides a straightforward solution for creating a quick web page, offering essential features for comfortable writing while maintaining a sense of simplicity.
 
 </div>
 
 ![Screenshot of Aplos](https://github.com/GabsEdits/aplos/assets/110247388/3c98f962-b560-442a-9f56-9b805156a272)
+
+## Features
 
 - Lightweight and minimalistic, using VitePress.
 - Elegantly styled with a primary color theme for a visually pleasing experience.
@@ -19,8 +21,18 @@
 
 The name 'Aplós', pronounced as `/aplós/` is the Romanized representation of the Greek word 'Απλός,' which translates to 'Simple' or 'Pure and simple'. This naming choice that showcases the essence of the project— it's dedication to providing users with a traightforward and modern web experience. Aplós is centered around the philosophy of simplicity, aiming to deliver an uncomplicated and contemporary solution for website creation.
 
+## Try & Use
+
+To try and use this project you can check the Guide I made.
+
+## Learn about it
+
+You can learn more about this project on the [LEARN.md](/LEARN.md) file.
+
 ## Thanks ❤ & Credits️:
 
-- David Lapshin for [Duckquill](https://daudix.codeberg.page/duckquill), from where I got inspired to create this project (and many ideas are from there)
-- Rasmus Andersson for [Inter](https://rsms.me/inter/), which is the font used in **all** _Aeolus_ apps.
-- Adobe for [Source Code Pro](https://adobe-fonts.github.io/source-code-pro/), used for code snippets
+- [Duckquill](https://daudix.codeberg.page/duckquill), from where I got inspired to create this project (and many ideas are from there)
+- [Inter](https://rsms.me/inter/), used for all Sans Serif text.
+- [Source Code Pro](https://adobe-fonts.github.io/source-code-pro/), used for code snippets.
+- [VitePress](https://vitepress.dev), which is used to power Aplós.- Everyone that supported the project.
+- Everyone that supported the project.
