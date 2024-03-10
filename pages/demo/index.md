@@ -14,6 +14,9 @@
 
 # Header 1
 
+> [!WARNING] Heads Up!
+> If you want to see the blog demo, you can see it [here](/demo/blog/)
+
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo labore aperiam, asperiores doloribus earum qui id harum neque modi nostrum similique. Rerum consequatur ab eaque velit consequuntur blanditiis praesentium commodi.
 
 ## Header 2
@@ -67,9 +70,9 @@ tempora?
 
 ## Photo & Video
 
-[![wow](https://images.unsplash.com/photo-1495080600440-47b003ed9521?auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=2071)](https://unsplash.com/photos/aerial-photography-of-trees-in-winter-at-daytime-9rNyml9OKfI)
+[![A small bird perched on a tree trunk](https://images.unsplash.com/photo-1709820738040-1bb62387d430?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)](https://unsplash.com/photos/a-small-bird-perched-on-a-tree-trunk-tf6wnUXCkcg)
 
-<figcaption>Wow</figcaption>
+<figcaption>A small bird perched on a tree trunk</figcaption>
 
 To write a caption to a photo use the `figcaption` tag:
 
