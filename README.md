@@ -23,7 +23,7 @@ The name 'Aplós', pronounced as `/aplós/` is the Romanized representation of t
 
 ## Try & Use
 
-To try and use this project you can check the Guide I made.
+To try and use this project you can check the [Guide](https://aplos.gxbs.me/guide/) I made.
 
 ## Learn about it
 

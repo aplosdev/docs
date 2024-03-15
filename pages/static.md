@@ -26,9 +26,9 @@ Once you've got it cloned, dive into the index.html file, make your tweaks, and 
 
 Inside the `index.html` file, you'll find a style section with a customizable color palette. Want a change? Go for it! Modify the text, add elements as you wish. For a inspiration, check out the [Demo Page](/demo/). Creating cards like the warning card? Just add an element with the id "`warning`", toss in an `<h1 />` and a `<p />`, and you're good to go.
 
-::: warning
-This template might lag a bit behind the latest versions, usually a few releases behind of the absolute newest. For example, if the current version is `1.1.0`, the template might be at `1.0.0-rc.1`. I intentionally do this to focus more on the main version's improvement than playing catch-up with every release. Fear not; after two major point releases (`0.X.0`, where `X` is the major point), the template gets a shiny update to the latest version.
-:::
+> [!warning] ⚠ Warning
+> Please note that this template may have a slight lag behind the latest version. This intentional approach allows for a greater focus on improving the main version rather than constantly catching up with every release. After about six major commits, the template will receive a polished update to the latest version.
+
 
 ::: details Heads Up
 Some elements, like the 404 page, are designed specifically for the VitePress theme.
