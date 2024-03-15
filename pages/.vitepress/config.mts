@@ -11,7 +11,7 @@ export default defineConfig({
   cleanUrls: true,
 
   themeConfig: {
-    author: "Gabriel Cozma/Gabs",
+    author: "Gabriel Cozma",
     blog: {
       data: {
         repo: "GabsEdits/aplos",
