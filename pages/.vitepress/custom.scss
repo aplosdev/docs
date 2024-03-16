@@ -17,6 +17,12 @@ $color-accent: #D16014; //D62839
   #title {
     margin: 0px;
     color: var(--color-accent);
+
+    @media (prefers-color-scheme: dark) {
+      background: linear-gradient(95deg, #ff8330 32.27%, #f4bd98 68.51%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 
   #aeolus,
