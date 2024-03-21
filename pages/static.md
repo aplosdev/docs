@@ -1,3 +1,7 @@
+---
+layout: simple
+---
+
 # Static Template
 
 Besides Aplós being a VitePress theme, it also includes a simple HTML & CSS template referred to as the 'Static Template'. It's nicely paired with components that help you create a website in minutes. Luckily, it's really easy to set up.

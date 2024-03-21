@@ -1,3 +1,7 @@
+---
+layout: simple
+---
+
 # Edit Navigation Island
 
 Customizing the navigation links in your Aplós template is a straightforward process within the `config.mts` file, specifically in the `nav` section:
