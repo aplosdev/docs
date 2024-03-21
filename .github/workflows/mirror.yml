@@ -17,6 +17,6 @@ jobs:
     - name: mirror-repository
       uses: spyoungtech/mirror-action@v0.5.1
       with:
-        REMOTE: 'https://codeberg.org/gxbs/aplos.git'
+        REMOTE: 'https://codeberg.org/aplos/aplos.git'
         GIT_USERNAME: gxbs
         GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
