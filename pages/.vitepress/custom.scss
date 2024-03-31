@@ -3,7 +3,7 @@
 
 @use "sass:color";
 
-$color-accent: #D16014; //D62839
+$color-accent: #d16014; //D62839
 
 .table-small table {
   width: max-content;
@@ -43,6 +43,10 @@ $color-accent: #D16014; //D62839
     h2 {
       font-size: 32px;
       margin: 5px 0;
+    }
+
+    @media screen and (max-width: 37.5rem) {
+      width: 100%;
     }
   }
 }
