@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^1.72.0
     version: 1.72.0
   vitepress:
-    specifier: ^1.0.1
-    version: 1.0.1(@algolia/client-search@4.23.2)(sass@1.72.0)(search-insights@2.13.0)
+    specifier: ^1.0.2
+    version: 1.0.2(@algolia/client-search@4.23.2)(sass@1.72.0)(search-insights@2.13.0)
 
 packages:
 
@@ -61,9 +61,6 @@ packages:
     peerDependencies:
       '@algolia/client-search': '>= 4.9.1 < 6'
       algoliasearch: '>= 4.9.1 < 6'
-    peerDependenciesMeta:
-      '@algolia/client-search':
-        optional: true
     dependencies:
       '@algolia/client-search': 4.23.2
       algoliasearch: 4.23.2
@@ -1137,8 +1134,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitepress@1.0.1(@algolia/client-search@4.23.2)(sass@1.72.0)(search-insights@2.13.0):
-    resolution: {integrity: sha512-eNr5pOBppYUUjEhv8S0S2t9Tv95LQ6mMeHj6ivaGwfHxpov70Vduuwl/QQMDRznKDSaP0WKV7a82Pb4JVOaqEw==}
+  /vitepress@1.0.2(@algolia/client-search@4.23.2)(sass@1.72.0)(search-insights@2.13.0):
+    resolution: {integrity: sha512-bEj9yTEdWyewJFOhEREZF+mXuAgOq27etuJZT6DZSp+J3XpQstXMJc5piSVwhZBtuj8OfA0iXy+jdP1c71KMYQ==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
