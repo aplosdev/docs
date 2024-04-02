@@ -1,3 +1,6 @@
 [submodule "pages/.vitepress/theme"]
 	path = pages/.vitepress/theme
 	url = https://github.com/GabsEdits/aplos-theme.git
+[submodule "templates"]
+	path = templates
+	url = https://github.com/GabsEdits/aplos-template
