@@ -9,7 +9,7 @@
     "inter-ui": "^4.0.2"
   },
   "devDependencies": {
-    "sass": "^1.72.0",
+    "sass": "^1.74.1",
     "vitepress": "^1.0.2"
   }
 }
