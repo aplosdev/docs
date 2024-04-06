@@ -1,21 +1,9 @@
-<div class="table-small">
-
-|    Table of Content   |
-| --------------------- |
-| [Photo & Video](#photo-video) |
-| [Information boxes](#information-boxes) |
-| [Table](#table) |
-| [Small Text](#small-text) |
-| [Time](#time) |
-
-
-
-</div>
+[[toc]]
 
 # Header 1
 
 > [!WARNING] Heads Up!
-> If you want to see the blog demo, you can see it [here](/demo/blog/)
+> If you want to see the blog demo, you can see it [here](/blog/)
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo labore aperiam, asperiores doloribus earum qui id harum neque modi nostrum similique. Rerum consequatur ab eaque velit consequuntur blanditiis praesentium commodi.
 

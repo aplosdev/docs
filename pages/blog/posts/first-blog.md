@@ -1,14 +1,14 @@
 ---
 layout: blog
-title: "Ipsum"
+title: First Blog
 author: Gabriel Cozma
-description: Why Ipsum is the best.
-date: 2024-03-10T21:33:00+02:00
-prev: First Blog
-next: Lorem
+description: This is my first ever demo blog for Aplos!
+shortDescription: This is my first ever demo blog for Aplos!
+date: 2024-03-10T21:32:00+02:00
+next: Ipsum
 tags:
  - demo
- - ipsum
+ - first-blog
  - example
 ---
 

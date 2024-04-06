@@ -7,18 +7,7 @@ layout: simple
 
 Aplós is a user-friendly template for Vitepress that allows you to quickly set up and customize your website. In just a few simple steps, you can configure the template to match your preferences. Let's walk through the process:
 
-<div class="table-small">
-
-|    Table of Content   |
-| --------------------- |
-| [Initialization](#initialization) |
-| [Customizing Configuration](#customizing-configuration) |
-| [Customizing Colors](#customizing-colors) |
-| [Start Writing!](#start-writing) |
-| [Automatically Update Aplós](#automatically-update-aplós) |
-| [Deployment](#deployment) |
-
-</div>
+[[toc]]
 
 ## Initialization
 
@@ -134,9 +123,38 @@ $color-accent: *your-accent-color-hex*;
 
 ## Start Writing!
 
-With the configuration set up, you can now start creating and editing your files. Utilize the `pages` folder to add new pages and customize the Navigation Island to suit your preferences.
+With the configuration set up, you can now start creating and editing your files. Utilize the `pages` folder to add new pages and [customize the Navigation Island](./edit-navigation.md) to suit your preferences.
 
 ---
+
+## Blog
+
+
+Setting up a blog in Aplos is a breeze. Just follow these simple steps:
+
+1. Create a folder named `blog` in your project directory.
+2. Inside the `blog` folder, create an `index.md` file and set its layout to `blog-list`.
+3. Write your desired content in the `index.md` file.
+4. Create a folder named `posts` inside the `blog` folder.
+5. Inside the `posts` folder, create individual blog posts as separate Markdown files.
+6. At the beginning of each blog post file, include the following frontmatter:
+
+```yaml
+---
+layout: blog
+title: "Ipsum"
+author: Gabriel Cozma
+description: Why Ipsum is the best.
+shortDescription: Why Ipsum is the best.
+date: 2024-03-10T21:33:00+02:00
+prev: First Blog
+next: Lorem
+tags:
+ - demo
+ - ipsum
+ - example
+---
+```
 
 ## Automatically Update Aplós
 
