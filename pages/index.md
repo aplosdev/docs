@@ -29,9 +29,15 @@ Check out the blog I made about the journey in developing this project here at h
 '*Aplós*', pronounced as `/aplós/` <button class="mono-emoji" @click="playSound">🔊</button> is the Romanized representation of the Greek word 'Απλός,' which translates to 'Simple'. This naming choice that showcases the essence of the project— it's dedication to providing users with a straightforward and modern web experience. Aplós is centered around the philosophy of simplicity, aiming to deliver an uncomplicated and contemporary solution for website creation.
 </aside>
 
-## Try & Use
+## Installation
 
-To try and use this project you can check the [Guide](/guide/) I made.
+Aplós can now be easily installed as an NPM Package. To get started with Aplós, simply follow these steps:
+
+```bash
+npm install aplos
+```
+
+Once you've installed the package, you will need to follow the [Guide](/guide/#package) to set up the theme.
 
 ## Credits & Thanks to
 
@@ -39,7 +45,7 @@ Aplós whouldn't be possible without the following projects:
 
 - [Duckquill](https://daudix.codeberg.page/duckquill), from where I got inspired to create this project (and many ideas are from there)
 - [Inter](https://rsms.me/inter/), which is the font used in **all** _Aeolus_ apps.
-- [Source Code Pro](https://adobe-fonts.github.io/source-code-pro/), used for code snippets.
+- [Geist Mono](https://vercel.com/font), used for code snippets.
 - [VitePress](https://vitepress.dev), which is used to power Aplós.
 - Everyone that supported the project.
 

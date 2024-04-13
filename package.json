@@ -6,8 +6,7 @@
     "pages:preview": "vitepress preview pages"
   },
   "dependencies": {
-    "@fontsource/source-code-pro": "^5.0.17",
-    "inter-ui": "^4.0.2"
+    "aplos": "^1.3.0"
   },
   "devDependencies": {
     "sass": "^1.74.1",

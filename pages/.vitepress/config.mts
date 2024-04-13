@@ -91,6 +91,15 @@ export default defineConfig({
     vite: {
       ssr: {
         noExternal: ['vitepress-plugin-testcomponents']
-      }
+      },
+      css: {
+        preprocessorOptions: {
+          scss: {
+            additionalData: `
+            $color-accent: #d16014;
+            `,
+          },
+        },
+      },
     }
 });
