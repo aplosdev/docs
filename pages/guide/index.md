@@ -125,7 +125,7 @@ You can edit the `config.mts` file to tailor the template to your needs. **I've 
 
 ## Start Writing!
 
-With the configuration set up, you can now start creating and editing your files. Utilize the `pages` folder to add new pages and [customize the Navigation Island](./edit-navigation.md) to suit your preferences.
+With the configuration set up, you can now start creating and editing your files. Utilize the `pages` folder to add new pages and [customize the project](./edit-configuration.md) to suit your preferences.
 
 ---
 
