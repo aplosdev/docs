@@ -6,22 +6,18 @@ pageClass: home
 
 A sleek, contemporary, and purposefully designed VitePress theme & template. It provides a straightforward solution for creating a quick web page, offering essential features for comfortable writing while maintaining a sense of simplicity. {.center #desc}
 
-## Features
+<section id="features">
+<br>
 
-- Lightweight and minimalistic, using VitePress.
-- Elegantly styled with a primary color theme for a visually pleasing experience.
-- Mobile-friendly design with support for dark mode.
-- Optimized for social media sharing with meta cards.
-- Utilizes premium fonts: Inter for text and Source Code Pro for code snippets.
-- Local development made easy with NPM/PNPM integration.
-- Every asset is local, nothing is pulled from the internet.
+- <span class="emoji">🚀</span> Lightweight and minimalistic, using VitePress.
+- <span class="emoji">🎨</span> Elegantly styled with a primary color theme for a visually pleasing experience.
+- <span class="emoji">📱</span> Mobile-friendly design with support for dark mode.
+- <span class="emoji">🖋️</span> Utilizes premium fonts: Inter for text and Geist Mono for code snippets.
+- <span class="emoji">💻</span> Local development made easy with NPM/PNPM integration.
+- <span class="emoji">📦</span> Every asset is local, nothing is pulled from the internet.
+</section>
 
-
-::: details Intrested in the journey behind it?
-Check out the blog I made about the journey in developing this project here at https://gabs.eu.org/blog/posts/behind-aplós
-:::
-
-
+<br>
 <aside>
 
 ## Name
@@ -39,6 +35,7 @@ npm install aplos
 
 Once you've installed the package, you will need to follow the [Guide](/guide/#package) to set up the theme.
 
+
 ## Credits & Thanks to
 
 Aplós whouldn't be possible without the following projects:
@@ -48,6 +45,11 @@ Aplós whouldn't be possible without the following projects:
 - [Geist Mono](https://vercel.com/font), used for code snippets.
 - [VitePress](https://vitepress.dev), which is used to power Aplós.
 - Everyone that supported the project.
+
+
+::: details Intrested in the journey behind it?
+Check out the blog I made about the journey in developing this project here at https://gabs.eu.org/blog/posts/behind-aplós
+:::
 
 <script setup lang="ts">
     const playSound = () => {
