@@ -9,7 +9,7 @@
     "aplos": "^1.3.0"
   },
   "devDependencies": {
-    "sass": "^1.74.1",
+    "sass": "^1.75.0",
     "vitepress": "^1.1.3"
   },
   "pnpm": {
