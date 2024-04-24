@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   aplos:
-    specifier: ^1.3.0
-    version: 1.3.0
+    specifier: ^1.3.1
+    version: 1.3.1
 
 devDependencies:
   sass:
@@ -821,8 +821,8 @@ packages:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
-  /aplos@1.3.0:
-    resolution: {integrity: sha512-9TiryFHBnxqNlF/wxJxWuLUqs9hyARJ4pRVUs+D1omJTqSr884S5sHr3/btFDGYj82Fom+fQ5JVw19/QMbPzHg==}
+  /aplos@1.3.1:
+    resolution: {integrity: sha512-kFnQw5aSW2XbTViCDX00CSX6YWSvOhcMsNE05hBDlUy7LKCnaCLuiLVNN8C9aXuemgdROin/NEhVQKFCdCWZ2g==}
     dependencies:
       inter-ui: 4.0.2
       non.geist: 1.0.2
