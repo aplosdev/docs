@@ -4,7 +4,6 @@ layout: simple
 
 # Guide
 
-
 Aplós is a user-friendly template for Vitepress that allows you to quickly set up and customize your website. In just a few simple steps, you can configure the template to match your preferences. Let's walk through the process:
 
 > [!TIP] Tip
@@ -17,10 +16,11 @@ Aplós is a user-friendly template for Vitepress that allows you to quickly set 
 1. Aplós provides a convenient template that you can use to kickstart your project. To begin, click on the following link to initialize a repository with the Aplós template: Initialize Aplós Template.
 
 2. After initializing, you have two options:
+
    - Clone the repository to edit the project locally: `git clone https://github.com/*your_username*/aplos`
    - Use GitHub Codespaces to edit the project online: [GitHub Codespaces](https://codespace.new)
 
-   Make sure to replace *your_username* with your GitHub username.
+   Make sure to replace _your_username_ with your GitHub username.
 
 3. Navigate to the `/pages/` and `/.vitepress/` folders. Locate the config.mts file for further customization.
 
@@ -121,9 +121,15 @@ You can also customize any other style of the project under the `$color-accent` 
 
 ## Customizing Configuration
 
-You can edit the `config.mts` file to tailor the template to your needs. **I've made an page that explains how to do that [here](/guide/edit-configuration).**
+You can edit the `config.mts` file to tailor the template to your needs. **I've made an page that explains how to do that.**
 
-## Start Writing!
+<section class="more-links">
+
+- [**Edit Configuration** If you want to customize the configuration of the project, you can follow the long list of what can you customize by clicking here](./edit-configuration.md)
+
+</section>
+
+## Start Writing
 
 With the configuration set up, you can now start creating and editing your files. Utilize the `pages` folder to add new pages and [customize the project](./edit-configuration.md) to suit your preferences.
 
@@ -155,9 +161,9 @@ date: 2024-03-10T21:33:00+02:00
 prev: First Blog
 next: Lorem
 tags:
- - demo
- - ipsum
- - example
+  - demo
+  - ipsum
+  - example
 ---
 ```
 
@@ -175,7 +181,7 @@ version: 2
 updates:
   - package-ecosystem: npm
     schedule:
-        interval: "daily"
+      interval: "daily"
     directory: /
 ```
 
@@ -214,12 +220,12 @@ steps:
       - pnpm install
       - pnpm run pages:build
     when:
-      event: [ pull_request, push ]
+      event: [pull_request, push]
 
   publish:
     image: bitnami/git
     # Must be set in Woodpecker configuration
-    secrets: [ mail, codeberg_token ]
+    secrets: [mail, codeberg_token]
     commands:
       - git config --global user.email $MAIL
       - git config --global user.name "Woodpecker CI"
@@ -236,6 +242,7 @@ steps:
 ```
 
 To seamlessly integrate with your CI process, simply configure two essential secrets in your CI Settings:
+
 1. `mail`: This secret should contain the email associated with your account.
 2. `codeberg_token`: This secret should store a token from your account, equipped with read and write access for your repositories.
 

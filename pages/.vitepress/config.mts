@@ -25,7 +25,7 @@ export default defineConfig({
           { text: "Static", link: "/static" },
           { text: "Demo", link: "/demo" },
         ],
-        git: "https://github.com/GabsEdits/aplos",
+        git: "https://github.com/aplosdev/docs",
       },
       footer: {
         copyright: true,
@@ -40,7 +40,12 @@ export default defineConfig({
         copyleft: {
           show: true,
           license: "MIT License",
-          info: "https://github.com/GabsEdits/aplos?tab=MIT-1-ov-file#readme",
+          info: "https://github.com/aplosdev/aplos?tab=MIT-1-ov-file#readme",
+        },
+
+        sourcecode: {
+          show: true,
+          link: "https://github.com/aplosdev/aplos",
         },
       },
     },
@@ -51,6 +56,10 @@ export default defineConfig({
         tipLabel: "Tip",
         dangerLabel: "⚠ Danger",
         infoLabel: "Info",
+      },
+      theme: {
+        light: "light-plus",
+        dark: "vitesse-dark",
       },
     },
     head: [
@@ -97,6 +106,7 @@ export default defineConfig({
           scss: {
             additionalData: `
             $color-accent: #d16014;
+            $bg-color-code-l: #ffffff;
             `,
           },
         },
