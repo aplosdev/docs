@@ -34,9 +34,9 @@ Customizing the Footer in your Aplós template is a straightforward process, spe
       copyright: true, // Show the copyright
       poweredBy: true, // Show the "Powered by Aplós & VitePress" text
 
-      madeby: { // The "Made by" section
+      madeby: { // The "Made by" section, like " Made with ❤️ by Mr Example"
         show: false, // Show the "Made by" section
-        name: "Gabs", // Your name
+        name: "Mr Example", // Your name
         link: "https://gabs.eu.org", // Your website
       },
 
@@ -69,7 +69,6 @@ The `data` object contains the variables to make the comments work, for more inf
 
 To customize the accent color, you can change the following variables inside the `vite` -> `css` -> `preprocessorOptions` -> `scss` -> `additionalData`:
 
-
 ```ts{6}
   vite: {
     css: {
@@ -101,8 +100,16 @@ To customize the markdown configuration, you can change the following variables 
   },
 ```
 
-For more information on how to customize the markdown configuration, you can check the [VitePress documentation](https://vitepress.dev/reference/site-config#markdown).
+VitePress uses [Shiki](https://github.com/shikijs/shiki) to highlight language syntax in Markdown code blocks. Shiki provides [a long list of themes](https://shiki.style/themes) from which you can choose the one that fits the best your project. To change the theme, add the following variables (also inside the `markdown` object):
 
+```ts
+    theme: {
+      light: "light-plus",
+      dark: "dark-plus",
+    },
+```
+
+For more information on how to customize the markdown configuration, you can check the [VitePress documentation](https://vitepress.dev/reference/site-config#markdown).
 
 ## General Website Configuration
 
@@ -110,28 +117,28 @@ To customize the general website configuration, you can change the following var
 
 ```ts
   head: [
-    ["meta", { name: "author", content: "Gabriel Cozma" }],
+    ["meta", { name: "author", content: "Mr. Example" }],
     ["link", { rel: "icon", href: "/favicon.ico" }],
-    ["meta", { name: "theme-color", content: "#f17755" }],
+    ["meta", { name: "theme-color", content: "#1a2b3c" }],
     ["meta", { name: "og:type", content: "website" }],
     ["meta", { name: "og:locale", content: "en" }],
     [
       "meta",
       {
         name: "og:description",
-        content: "Human, Front-end Developer & Open Source Contributor.",
+        content: "Someone and a great example.",
       },
     ],
-    ["meta", { name: "og:site_name", content: "Gabs | Gabriel Cozma" }],
-    ["meta", { name: "twitter:title", content: "Gabs | Gabriel Cozma" }],
+    ["meta", { name: "og:site_name", content: "User | Example" }],
+    ["meta", { name: "twitter:title", content: "User | Example" }],
     [
       "meta",
       {
         name: "twitter:description",
-        content: "Human, Front-end Developer & Open Source Contributor.",
+        content: "Someone and a great example.",
       },
     ],
-    ["meta", { name: "twitter:url", content: "https://gabs.eu.org" }],
+    ["meta", { name: "twitter:url", content: "https://example.org" }],
   ],
 ```
 

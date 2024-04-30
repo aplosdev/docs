@@ -112,7 +112,8 @@
       padding: 18px 20px;
       border-radius: 8px;
       font-weight: 500;
-      transition: transform .3s ease, background-color .3s ease, text-decoration .3s ease, color .3s ease;
+      transition: transform 0.3s ease, background-color 0.3s ease,
+        text-decoration 0.3s ease, color 0.3s ease;
 
       &:hover {
         transform: scale(1.05);

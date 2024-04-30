@@ -9,7 +9,7 @@ A sleek, contemporary, and purposefully designed VitePress theme & template. It 
 <section id="features">
 <br>
 
-- <span class="emoji">🚀</span> Lightweight and minimalistic, using VitePress.
+- <span class="emoji">🚀</span> Lightweight, minimalistic, and user-friendly, built for VitePress.
 - <span class="emoji">🎨</span> Elegantly styled with a primary color theme for a visually pleasing experience.
 - <span class="emoji">📱</span> Mobile-friendly design with support for dark mode.
 - <span class="emoji">🖋️</span> Utilizes premium fonts: Inter for text and Geist Mono for code snippets.
@@ -33,8 +33,7 @@ Aplós can now be easily installed as an NPM Package. To get started with Aplós
 npm install aplos
 ```
 
-Once you've installed the package, you will need to follow the [Guide](/guide/#package) to set up the theme.
-
+Once you've installed the package, you will need to follow the [Guide](/guide/#package) to set up the theme. {.local-link}
 
 ## Credits & Thanks to
 
