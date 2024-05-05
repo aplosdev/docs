@@ -52,9 +52,9 @@ export default defineConfig({
 
     markdown: {
       container: {
-        warningLabel: "⚠ Warning",
+        warningLabel: "Warning",
         tipLabel: "Tip",
-        dangerLabel: "⚠ Danger",
+        dangerLabel: "Danger",
         infoLabel: "Info",
       },
       theme: {

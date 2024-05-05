@@ -38,7 +38,7 @@ Ullus investigandi veri, nisi inveneris, et quaerendi defatigatio turpis est, cu
 
 VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
 
-**Input**
+### Input
 
 ````md
 ```js{4}
@@ -52,7 +52,7 @@ export default {
 ```
 ````
 
-**Output**
+### Output
 
 ```js{4}
 export default {
@@ -106,7 +106,7 @@ The message you want to share
 :::
 ```
 
-**Input**
+### Input
 
 ```md
 ::: info
@@ -130,7 +130,7 @@ This is a details block.
 :::
 ```
 
-**Output**
+### Output
 
 ::: info
 This is an info box.

@@ -8,7 +8,7 @@ To customize the theme, you can change the following variables inside the `theme
 
 ### Navigation Island
 
-You can change multuple things in the navigation island:
+You can change multiple things in the navigation island:
 
 Customizing the navigation links in your Aplós template is a straightforward process, specifically in the `nav` section:
 
@@ -25,7 +25,7 @@ nav: {
     },
 ```
 
-### Footer
+### Footer {#footer-config}
 
 Customizing the Footer in your Aplós template is a straightforward process, specifically in the `footer` section:
 
@@ -63,7 +63,12 @@ Customizing the Blog in your Aplós template is a straightforward process, speci
     },
 ```
 
-The `data` object contains the variables to make the comments work, for more information check [Giscus](https://giscus.app/) (the comments provider used in this project).
+> Make sure to replace the `repo`, `repoid`, and `categoryid` with your own values.
+
+The `data` object contains the variables to make the [Giscus](https://giscus.app/) comments show, for more information check the [Giscus documentation](https://giscus.app/).
+
+>[!WARNING] Warning
+> The variables above are only needed if you use Giscus as the comment provider in your blog post. If you use ActivityPub, you can ignore these variables.
 
 ## Customizing Colors
 

@@ -3,6 +3,8 @@ layout: blog
 title: First Blog
 author: Gabriel Cozma
 description: This is my first ever demo blog for Aplos!
+comments: activitypub
+post: https://fosstodon.org/@gregorni/112379470950032296
 date: 2024-03-10T21:32:00+02:00
 next: Ipsum
 tags:
@@ -10,6 +12,10 @@ tags:
  - first-blog
  - example
 ---
+
+> [!INFO] Info
+> Comments are via ActivityPub. I took a random post as demo, credits to the post: <https://fosstodon.org/@gregorni/112379470950032296>.
+
 
 Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At.
 

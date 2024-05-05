@@ -15,6 +15,10 @@ A sleek, contemporary, and purposefully designed VitePress theme & template. It 
 - <span class="emoji">🖋️</span> Utilizes premium fonts: Inter for text and Geist Mono for code snippets.
 - <span class="emoji">💻</span> Local development made easy with NPM/PNPM integration.
 - <span class="emoji">📦</span> Every asset is local, nothing is pulled from the internet.
+- <span class="emoji">🔧</span> Customizable configuration for a personalized touch.
+- <span class="emoji">✍️</span> Perfect integration for blogs, documentation, and personal websites.
+- <span class="emoji">💬</span> Giscus and Activitypub/Mastodon powered comments, for blog posts
+
 </section>
 
 <br>

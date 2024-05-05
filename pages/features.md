@@ -4,7 +4,7 @@ layout: simple
 
 # Features
 
-> [!WARNING] ⚠️ Work in Progress
+> [!WARNING] Work in Progress
 > You found an work in progress page, please come back later.
 
 [[toc]]

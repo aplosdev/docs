@@ -167,6 +167,41 @@ tags:
 ---
 ```
 
+#### Comments
+
+Aplós supports two comment systems: [Giscus](https://giscus.app) and ActivityPub posts. To enable one of them, follow these steps:
+
+- **If you want Giscus**: inside your blog post, add the following inside frontmatter:
+
+```yaml
+comments: giscus
+```
+
+You also need to add the following inside the `config.mts` file, in the `theme` object:
+
+```ts
+    blog: {
+      data: {
+        repo: "yourusername/yourrepo",
+        repoid: "your-repo-id",
+        categoryid: "your-category-id",
+      },
+    },
+```
+
+Make sure to edit the `repo`, `repoid`, and `categoryid` with your own values. Once that, you don't need to do anything else, the comments will right there!
+
+---
+
+- If you want **ActivityPub**: inside your blog post, add the following inside frontmatter:
+
+```yaml
+comments: activitypub
+post: https://mastodon.example/@yourusername/1234567890
+```
+
+Make sure to edit the `post` link with your own post link. Once that, you don't need to do anything else, the comments will right there!
+
 ### Automatically Update Aplós
 
 To automatically update Aplós, which is an NPM Package hosted on GitHub, you can use Dependabot. Follow these steps to set it up:

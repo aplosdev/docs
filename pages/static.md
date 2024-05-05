@@ -20,7 +20,7 @@ Once you've got it cloned, dive into the index.html file, make your tweaks, and 
 
 Inside the `index.html` file, you'll find a style section with a customizable color palette. Want a change? Go for it! Modify the text, add elements as you wish. For a inspiration, check out the [Demo Page](/demo). Creating cards like an warning card? Just add an element with the id "`warning`", add in an `<h1 />` and a `<p />`, and you're good to go.
 
-> [!warning] ⚠ Warning
+> [!warning] Warning
 > Please note that this template may have a slight lag behind the latest version. This intentional approach allows for a greater focus on improving the main version rather than constantly catching up with every release. After about one point release (for example if the current version is `1.3.5` the static template is at `1.2.5`), the template will receive a polished update to the latest version.
 
 ::: details Heads Up

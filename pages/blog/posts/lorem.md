@@ -4,6 +4,7 @@ title: "Lorem"
 author: Gabriel Cozma
 description: Why Lorem is the best.
 date: 2024-03-10T21:34:00+02:00
+comments: giscus
 prev: Ipsum
 tags:
  - demo

@@ -4,6 +4,7 @@ title: "Ipsum"
 author: Gabriel Cozma
 description: Why Ipsum is the best.
 date: 2024-03-10T21:33:00+02:00
+comments: giscus
 prev: First Blog
 next: Lorem
 tags:
