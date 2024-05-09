@@ -16,6 +16,8 @@ tags:
 > [!INFO] Info
 > Comments are via ActivityPub. I took a random post as demo, credits to the post: <https://fosstodon.org/@gregorni/112379470950032296>.
 
+> [!WARNING] Warning
+> ActivityPub comments have been disabled for version 1.4.0 as it was causing issues with the build process. It will be re-enabled in a future release.
 
 Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At.
 
