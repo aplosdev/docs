@@ -49,19 +49,19 @@ export default {
 > If you also want to add aditional styles, you can create a CSS/SCSS file inside the `theme` folder and import it in the `index.ts` file.
 
 > [!WARNING] Heads Up!
-> Currently, I recommend to use PNPM if you want to make use of the Blog List Layout, as it's not working with NPM.
+> Currently, I recommend to use PNPM if you want to make use of the Article List Layout, as it's not working with NPM.
 
-### With Blog or Without Blog
+### With Articles or Without Articles
 
-Aplós offers two versions: one with a blog and one without. To choose the version that suits your needs, follow these steps:
+Aplós offers two versions: one with configuration for articles (blogs) and one without. To choose the version that suits your needs, follow these steps:
 
-1. Navigate to the `index.ts` file inside `/.vitepress/theme/` folder that we created earlier, after that change the import of the `Layout.vue` file to either `Layout.vue` or `no-blog/Layout.vue`.
+1. Navigate to the `index.ts` file inside `/.vitepress/theme/` folder that we created earlier, after that change the import of the `Layout.vue` file to either `Layout.vue` or `minimal/Layout.vue`, and where you see `import "aplos"` change to `import "aplos/minimal"`.
 
-That will disable all the blog related layouts.
+That will disable all the article (blog) related layouts.
 
-#### With Blog
+#### With Articles
 
-If you want to use the blog, you can follow the steps below:
+If you want to use the article configuration, you can follow the steps below:
 
 1. Create a file named `posts.data.ts` inside the `/.vitepress/theme/` folder.
 2. Add the following code to the `posts.data.ts` file:
@@ -78,7 +78,7 @@ interface Post {
 declare const data: Post[];
 export { data };
 
-export default createContentLoader("blog/posts/*.md", {
+export default createContentLoader("articles/posts/*.md", { // Change the path to your posts
   excerpt: true,
   transform(raw): Post[] {
     return raw
@@ -105,15 +105,15 @@ function formatDate(raw: string): string {
 
 2. After adding the script, you can change where your posts are located by changing the path in the `posts.data.ts` file on the highlighted line.
 
-3. If you want a page with a list of all your blog posts, you can create a file named however you want and add the following at the start of the file:
+3. If you want a page with a list of all your articles, you can create a file named however you want and add the following at the start of the file:
 
 ```yaml
 ---
-layout: blog-list
+layout: article-list
 ---
 ```
 
-4. Enjoy your blog! (Make sure you read more about setting up the blog in the [Blog](#blog) section)
+4. Enjoy your articles/blog! (Make sure you read more about setting up the article configuration in the [Articles](#articles-blog) section)
 
 Replace `!!YOUR_COLOR_HEX!!` with your desired color hex code.
 
@@ -139,20 +139,20 @@ With the configuration set up, you can now start creating and editing your files
 
 Some additional guides and tips to help you get the most out of Aplós:
 
-### Blog
+### Articles (Blogs)
 
-Setting up a blog in Aplos is a breeze. Just follow these simple steps:
+Setting up articles/a blog in Aplos is a breeze. Just follow these simple steps:
 
-1. Create a folder named `blog` in your project directory.
-2. Inside the `blog` folder, create an `index.md` file and set its layout to `blog-list`.
+1. Create a folder named how ever you like in your project directory.
+2. Inside the newly created folder, create an `index.md` file and set its layout to `article-list`.
 3. Write your desired content in the `index.md` file.
-4. Create a folder named `posts` inside the `blog` folder.
-5. Inside the `posts` folder, create individual blog posts as separate Markdown files.
-6. At the beginning of each blog post file, include the following frontmatter:
+4. Create a folder named `posts` inside the folder.
+5. Inside the `posts` folder, create individual articles as separate Markdown files.
+6. At the beginning of each article file, include the following frontmatter:
 
 ```yaml
 ---
-layout: blog
+layout: article
 title: "Ipsum"
 author: Gabriel Cozma
 description: Why Ipsum is the best.
@@ -171,7 +171,7 @@ tags:
 
 Aplós supports two comment systems: [Giscus](https://giscus.app) and ActivityPub posts. To enable one of them, follow these steps:
 
-- **If you want Giscus**: inside your blog post, add the following inside frontmatter:
+- **If you want Giscus**: inside your posts/articles, add the following inside frontmatter:
 
 ```yaml
 comments: giscus
@@ -193,7 +193,7 @@ Make sure to edit the `repo`, `repoid`, and `categoryid` with your own values. O
 
 ---
 
-- If you want **ActivityPub**: inside your blog post, add the following inside frontmatter:
+- If you want **ActivityPub**: inside your article/post, add the following inside frontmatter:
 
 ```yaml
 comments: activitypub
@@ -201,6 +201,33 @@ post: https://mastodon.example/@yourusername/1234567890
 ```
 
 Make sure to edit the `post` link with your own post link. Once that, you don't need to do anything else, the comments will right there!
+
+### Styling Images
+
+You can style images in your content using various options provided by Aplós. Here's how to apply each styling option:
+
+- **Not Rounded**: Remove the border radius from an image.
+- **Static**: Prevent an image from being resized when hovered or active.
+- **Size Options**:
+  - **Small**: Make an image smaller.
+  - **Medium**: Make an image medium-sized.
+- **Visual Effects**:
+  - **Shadow**: Add a shadow to an image.
+  - **Monochrome**: Make an image monochrome.
+  - **Invert**: Invert the colors of an image.
+  - **Blur**: Blur an image.
+  - **Sepia**: Add a sepia effect to an image.
+- **Transparency**: Make an image transparent.
+
+To apply any of these options, use the following syntax:
+```md
+![My image](./image.png#option)
+```
+
+For example, to make an image small, use the following syntax:
+```md
+![My image](./image.png#small)
+```
 
 ### Automatically Update Aplós
 
