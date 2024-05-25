@@ -202,6 +202,30 @@ post: https://mastodon.example/@yourusername/1234567890
 
 Make sure to edit the `post` link with your own post link. Once that, you don't need to do anything else, the comments will right there!
 
+### General Styling
+
+Using Aplós, you can customise the appearance of your content with various styling options. The `.vitepress/theme/index.ts` file allows importing additional files, including CSS or SCSS files, to apply custom styles to your project. 
+
+For example, to import a CSS file, add the following line to the `index.ts` file:
+
+```ts
+import "./styles.css";
+```
+
+> Predicting that you have a `styles.css` file in the same directory as the `index.ts` file (`theme` folder).
+
+Inside the `styles.css` file, you can add custom styles to modify the appearance of your content, or even adding custom components.
+
+### Chaning the Content Width
+
+You can modify the width of the content in Aplós by changing the `--content-width` variable in the `:root` selector. For example, to set the content width to 800px, add the following CSS to your project:
+
+```css
+:root {
+  --content-width: 800px;
+}
+```
+
 ### Styling Images
 
 You can style images in your content using various options provided by Aplós. Here's how to apply each styling option:
