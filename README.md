@@ -7,6 +7,30 @@
 
 ![Screenshot of Aplos](https://github.com/GabsEdits/aplos/assets/110247388/3c98f962-b560-442a-9f56-9b805156a272)
 
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/pin/?username=aplosdev&repo=aplos&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/pin/?username=aplosdev&repo=aplos"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aplosdev&repo=aplos" alt="Repo Card" />
+</picture>
+
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/pin/?username=aplosdev&repo=template&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/pin/?username=aplosdev&repo=template"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aplosdev&repo=template" alt="Repo Card" />
+</picture>
+
 ## Features
 
 - Lightweight and minimalistic, using VitePress.
@@ -15,7 +39,6 @@
 - Optimized for social media sharing with meta cards.
 - Utilizes premium fonts: Inter for text and Source Code Pro for code snippets.
 - Local development made easy with NPM/PNPM integration.
-
 
 ## Name
 
