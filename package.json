@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "sass": "^1.77.4",
-    "vitepress": "^1.2.2"
+    "vitepress": "^1.2.3"
   },
   "pnpm": {
     "peerDependencyRules": {
